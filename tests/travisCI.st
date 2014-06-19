@@ -7,8 +7,8 @@ gitPath := (Smalltalk at: #'FileDirectory' ifAbsent: [  ])
   ifNotNil: [:fileDirectoryClass | (fileDirectoryClass default directoryNamed: gitCache ) fullName].
 
 Metacello new
-  configuration: 'Seaside3';
-  load: #( 'WebClient' ).
+  configuration: 'WebClient';
+  load.
 
 Metacello new
   configuration: 'SqueakSource';
