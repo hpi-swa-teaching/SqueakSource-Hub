@@ -1,0 +1,3 @@
+defaults
+defaultShowStriped
+	^ true

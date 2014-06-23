@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakSource-Core-View-Decorations",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SSExplanationDecoration",
+	"pools" : [
+		 ],
+	"super" : "WADecoration",
+	"type" : "normal" }

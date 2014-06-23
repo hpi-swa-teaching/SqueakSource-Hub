@@ -1,0 +1,15 @@
+{
+	"category" : "SqueakSource-Core-View-Components",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"infos",
+		"project" ],
+	"name" : "SSVersionHistoryItems",
+	"pools" : [
+		 ],
+	"super" : "SSVersionView",
+	"type" : "normal" }

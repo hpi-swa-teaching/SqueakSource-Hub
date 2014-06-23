@@ -1,0 +1,1 @@
+(name 'SqueakSource-Core-topa.76'message 'When parsing the initialRequest url, take into accountthat Request path and configured server path might not match. Request path is now compared with the applications basicUrl.'id 'b8fab273-57b7-4112-93aa-06366e52c8c7'date '5 December 2011'time '3:04:49 pm'author 'topa'ancestors ()stepChildren ())

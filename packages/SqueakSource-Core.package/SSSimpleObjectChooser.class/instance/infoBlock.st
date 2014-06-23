@@ -1,0 +1,4 @@
+accessing
+infoBlock
+
+	^ infoBlock

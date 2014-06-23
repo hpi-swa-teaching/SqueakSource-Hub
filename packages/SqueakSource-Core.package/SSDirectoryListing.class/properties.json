@@ -1,0 +1,15 @@
+{
+	"category" : "SqueakSource-Core-View-Fake",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"fakeZips",
+		"configs" ],
+	"name" : "SSDirectoryListing",
+	"pools" : [
+		 ],
+	"super" : "SSVersionListing",
+	"type" : "normal" }

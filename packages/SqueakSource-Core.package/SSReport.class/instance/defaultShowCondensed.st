@@ -1,0 +1,3 @@
+defaults
+defaultShowCondensed
+	^ true

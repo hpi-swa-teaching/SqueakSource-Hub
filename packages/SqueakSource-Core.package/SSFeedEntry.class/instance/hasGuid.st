@@ -1,0 +1,3 @@
+testing
+hasGuid
+	^false

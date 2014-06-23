@@ -1,0 +1,1 @@
+(name 'SqueakSource-Core-topa.41'message '* Allow for finalizer hooks.* Get rid of Statistics class var and don''t use injection in Statistics.* Do not feed SSEmailAddress''es but WAEmailAddresses to WAEmailMessage.'id 'c21f5bfb-e6ad-417d-9c5e-65e1ef1629db'date '24 May 2011'time '4:03:03 am'author 'topa'ancestors ()stepChildren ())

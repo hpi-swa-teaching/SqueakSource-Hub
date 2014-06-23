@@ -1,0 +1,2 @@
+*SqueakSource-Core-View
+resetModel

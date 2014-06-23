@@ -1,0 +1,16 @@
+{
+	"category" : "SqueakSource-Core-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"member",
+		"right",
+		"operation" ],
+	"name" : "SSAccessViolation",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

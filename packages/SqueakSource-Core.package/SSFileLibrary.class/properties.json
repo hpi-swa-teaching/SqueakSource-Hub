@@ -1,0 +1,16 @@
+{
+	"category" : "SqueakSource-Core-View-Components",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"logo",
+		"color",
+		"style" ],
+	"name" : "SSFileLibrary",
+	"pools" : [
+		 ],
+	"super" : "WAFileLibrary",
+	"type" : "normal" }

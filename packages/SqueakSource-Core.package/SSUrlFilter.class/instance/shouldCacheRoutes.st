@@ -1,0 +1,5 @@
+private
+shouldCacheRoutes
+
+	^ true
+"	^ false"

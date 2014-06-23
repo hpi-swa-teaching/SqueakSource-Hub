@@ -1,0 +1,4 @@
+*SqueakSource-Core
+squeaksourceDoWithoutProgressNotification: aBlock
+
+	self subclassResponsibility

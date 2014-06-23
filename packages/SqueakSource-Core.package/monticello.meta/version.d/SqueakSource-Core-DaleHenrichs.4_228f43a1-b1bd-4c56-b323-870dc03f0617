@@ -1,0 +1,1 @@
+(name 'SqueakSource-Core-DaleHenrichs.4'message '- fixed static listing url for project to html...- commented out "google sitemaps verification" in SSFrame>>updateRoot: since it looks suspicious'id '228f43a1-b1bd-4c56-b323-870dc03f0617'date '2 July 2010'time '9:22:25 am'author 'DaleHenrichs'ancestors ((id '3ea21437-82f1-48a7-af6a-8e11b7afe4bb'))stepChildren ())

@@ -1,0 +1,1 @@
+(name 'SqueakSource-Core-dkh.39'message '3.0-beta.2 (dkh.54):- use RcCounter for download counts (avoid commit conflicts)- update stats every 90 minutes'id 'bd25fe55-0e38-4d93-933e-b6fe9c2702a0'date '23 May 2011'time '2:50:53 pm'author 'dkh'ancestors ((id 'af648616-2bfd-426d-b06f-2291446df277') (id '40d7ad90-a6a3-48fa-9ed2-be016ca9628f'))stepChildren ())

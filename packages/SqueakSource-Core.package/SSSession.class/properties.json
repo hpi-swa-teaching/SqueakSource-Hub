@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakSource-Core-Server",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"user" ],
+	"name" : "SSSession",
+	"pools" : [
+		 ],
+	"super" : "WASession",
+	"type" : "normal" }

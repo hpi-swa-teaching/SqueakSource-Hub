@@ -1,0 +1,15 @@
+{
+	"category" : "SqueakSource-Core-View-Components",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"report",
+		"searchText" ],
+	"name" : "SSSearchableWithReport",
+	"pools" : [
+		 ],
+	"super" : "SSProjectCallable",
+	"type" : "normal" }

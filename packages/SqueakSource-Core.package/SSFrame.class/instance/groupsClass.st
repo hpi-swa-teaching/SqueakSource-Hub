@@ -1,0 +1,3 @@
+configuration
+groupsClass
+	^SSGroups

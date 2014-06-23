@@ -1,0 +1,4 @@
+accessing
+fullnameOrUnknown
+
+	^ self printString

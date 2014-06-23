@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakSource-Core-Magritte",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SSFullnameReference",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

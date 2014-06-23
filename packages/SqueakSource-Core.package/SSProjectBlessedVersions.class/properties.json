@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakSource-Core-View-Components",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SSProjectBlessedVersions",
+	"pools" : [
+		 ],
+	"super" : "SSFilteringComponent",
+	"type" : "normal" }

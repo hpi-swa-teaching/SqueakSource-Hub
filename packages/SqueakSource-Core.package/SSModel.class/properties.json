@@ -1,0 +1,15 @@
+{
+	"category" : "SqueakSource-Core-Model",
+	"classinstvars" : [
+		"stringsSatisfyBlocks" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"timestamp",
+		"properties" ],
+	"name" : "SSModel",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

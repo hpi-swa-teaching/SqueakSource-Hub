@@ -1,0 +1,4 @@
+class initialization
+initialize 
+
+	super initialize. "Uncommon yet needed for SSModel"

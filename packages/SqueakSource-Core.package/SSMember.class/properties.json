@@ -1,0 +1,20 @@
+{
+	"category" : "SqueakSource-Core-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"AnonymousMember" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"login",
+		"fullname",
+		"passwordHash",
+		"superuser",
+		"email",
+		"information",
+		"favorites" ],
+	"name" : "SSMember",
+	"pools" : [
+		 ],
+	"super" : "SSInstanceSideDescribedObject",
+	"type" : "normal" }

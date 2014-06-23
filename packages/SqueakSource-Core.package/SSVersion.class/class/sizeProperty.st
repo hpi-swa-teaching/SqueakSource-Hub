@@ -1,0 +1,3 @@
+properties
+sizeProperty
+	^ #size

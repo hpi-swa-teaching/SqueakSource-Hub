@@ -1,0 +1,4 @@
+accessing
+licenseJson
+
+	^ license first

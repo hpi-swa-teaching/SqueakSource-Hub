@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakSource-Core-View-Components",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"component" ],
+	"name" : "SSFrame",
+	"pools" : [
+		 ],
+	"super" : "SSGenericFrame",
+	"type" : "normal" }

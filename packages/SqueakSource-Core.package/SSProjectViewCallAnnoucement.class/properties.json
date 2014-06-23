@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakSource-Core-Announcements",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SSProjectViewCallAnnoucement",
+	"pools" : [
+		 ],
+	"super" : "SSCallAnnoucement",
+	"type" : "normal" }

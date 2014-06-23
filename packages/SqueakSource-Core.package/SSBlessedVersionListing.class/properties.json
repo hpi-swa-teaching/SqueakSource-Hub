@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakSource-Core-View-Fake",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SSBlessedVersionListing",
+	"pools" : [
+		 ],
+	"super" : "SSVersionListing",
+	"type" : "normal" }

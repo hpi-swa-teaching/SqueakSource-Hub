@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakSource-Core-View-Components",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"project" ],
+	"name" : "SSWiki",
+	"pools" : [
+		 ],
+	"super" : "TWWiki",
+	"type" : "normal" }

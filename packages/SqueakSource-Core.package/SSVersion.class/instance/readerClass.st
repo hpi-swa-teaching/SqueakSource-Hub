@@ -1,0 +1,3 @@
+convenience
+readerClass
+	^MCMczReader

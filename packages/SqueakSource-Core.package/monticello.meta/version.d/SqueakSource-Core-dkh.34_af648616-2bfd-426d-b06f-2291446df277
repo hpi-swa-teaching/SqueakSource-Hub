@@ -1,0 +1,1 @@
+(name 'SqueakSource-Core-dkh.34'message '3.0-beta.2 (dkh.50):- SSInstallWizzard needs to be unregistered once you deploy ... add helper methods for register and unregister - change default name'id 'af648616-2bfd-426d-b06f-2291446df277'date '20 May 2011'time '11:44:23 am'author 'dkh'ancestors ((id '1905854c-5d5f-4818-b346-f91a60b1d204'))stepChildren ())

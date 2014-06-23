@@ -1,0 +1,16 @@
+{
+	"category" : "SqueakSource-Core-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"id",
+		"fullname",
+		"members" ],
+	"name" : "SSGroup",
+	"pools" : [
+		 ],
+	"super" : "SSInstanceSideDescribedObject",
+	"type" : "normal" }

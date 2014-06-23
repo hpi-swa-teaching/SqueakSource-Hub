@@ -1,0 +1,20 @@
+{
+	"category" : "SqueakSource-Core-Model",
+	"classinstvars" : [
+		"cacheThread" ],
+	"classvars" : [
+		"Current",
+		"StatisticsThread",
+		"Storage" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"title",
+		"members",
+		"projects",
+		"groups",
+		"tags" ],
+	"name" : "SSRepository",
+	"pools" : [
+		 ],
+	"super" : "SSInstanceSideDescribedObject",
+	"type" : "normal" }

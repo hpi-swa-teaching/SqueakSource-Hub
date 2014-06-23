@@ -1,0 +1,15 @@
+{
+	"category" : "SqueakSource-Core-View-Components",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"default",
+		"form" ],
+	"name" : "SSRegisterSqueakMap",
+	"pools" : [
+		 ],
+	"super" : "SSComponent",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakSource-Core-Magritte",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SSReport",
+	"pools" : [
+		 ],
+	"super" : "TWBSMagritteReport",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "SqueakSource-Core-View-Fake",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "bf 3/29/2011 12:05",
+	"instvars" : [
+		"expand",
+		"sortedInfos" ],
+	"name" : "SSChangesListing",
+	"pools" : [
+		 ],
+	"super" : "SSVersionListing",
+	"type" : "normal" }

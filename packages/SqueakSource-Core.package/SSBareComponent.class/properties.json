@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakSource-Core-View-Fake",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SSBareComponent",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

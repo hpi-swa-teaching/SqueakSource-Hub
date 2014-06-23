@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakSource-Core-View-Components",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"batchedList" ],
+	"name" : "SSProjectRSS",
+	"pools" : [
+		 ],
+	"super" : "SSProjectCallable",
+	"type" : "normal" }

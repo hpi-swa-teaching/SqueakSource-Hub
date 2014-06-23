@@ -1,0 +1,16 @@
+{
+	"category" : "SqueakSource-Core-View-Components",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tokens",
+		"delimiter",
+		"url" ],
+	"name" : "SSAddLinkComponent",
+	"pools" : [
+		 ],
+	"super" : "SSComponent",
+	"type" : "normal" }

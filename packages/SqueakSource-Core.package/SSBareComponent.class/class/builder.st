@@ -1,0 +1,4 @@
+defaults
+builder
+
+	^ WARenderCanvas builder

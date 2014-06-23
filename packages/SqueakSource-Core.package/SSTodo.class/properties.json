@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakSource-Core-View-Fake",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 11/24/2007 17:01",
+	"instvars" : [
+		 ],
+	"name" : "SSTodo",
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

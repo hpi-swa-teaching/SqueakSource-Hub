@@ -1,0 +1,16 @@
+{
+	"category" : "SqueakSource-Core-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"title",
+		"message",
+		"author" ],
+	"name" : "SSFeedEntry",
+	"pools" : [
+		 ],
+	"super" : "SSInstanceSideDescribedObject",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+*squeaksource-core
+fullnameOrUnknown
+	^'unknown'

@@ -1,0 +1,3 @@
+configuration
+projectsClass
+	^SSProjects

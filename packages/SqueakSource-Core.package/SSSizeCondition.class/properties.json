@@ -1,0 +1,15 @@
+{
+	"category" : "SqueakSource-Core-Magritte",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"boundary",
+		"comparator" ],
+	"name" : "SSSizeCondition",
+	"pools" : [
+		 ],
+	"super" : "SSCondition",
+	"type" : "normal" }

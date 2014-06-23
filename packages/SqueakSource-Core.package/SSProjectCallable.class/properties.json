@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakSource-Core-View-Components",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"announcer" ],
+	"name" : "SSProjectCallable",
+	"pools" : [
+		 ],
+	"super" : "SSComponent",
+	"type" : "normal" }

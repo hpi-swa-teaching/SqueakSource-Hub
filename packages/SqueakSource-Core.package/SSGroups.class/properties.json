@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakSource-Core-View-Components",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SSGroups",
+	"pools" : [
+		 ],
+	"super" : "SSSearchableWithReport",
+	"type" : "normal" }

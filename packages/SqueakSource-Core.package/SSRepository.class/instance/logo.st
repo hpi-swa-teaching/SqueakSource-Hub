@@ -1,0 +1,3 @@
+accessing
+logo
+	^SSFileLibrary logoFileModel

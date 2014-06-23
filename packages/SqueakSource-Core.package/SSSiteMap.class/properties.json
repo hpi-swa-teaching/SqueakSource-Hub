@@ -1,0 +1,15 @@
+{
+	"category" : "SqueakSource-Core-View-Fake",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"repository",
+		"user" ],
+	"name" : "SSSiteMap",
+	"pools" : [
+		 ],
+	"super" : "SSBareComponent",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakSource-Core-Server",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SSUrlFilter",
+	"pools" : [
+		 ],
+	"super" : "WARestfulFilter",
+	"type" : "normal" }

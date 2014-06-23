@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"isAbstract" : "pmm 9/16/2007 21:45" },
+	"instance" : {
+		"boxStyle" : "topa 6/19/2010 18:30",
+		"hasLabelId" : "pmm 9/16/2007 21:56",
+		"height" : "pmm 9/16/2007 21:45",
+		"renderBoxOn:" : "pmm 9/16/2007 21:54",
+		"renderEditorOn:" : "pmm 9/16/2007 21:58",
+		"renderInputOn:" : "topa 6/19/2010 15:28",
+		"renderUpdateOn:" : "pmm 9/16/2007 21:57",
+		"renderViewerOn:" : "pmm 9/16/2007 21:48",
+		"value" : "pmm 9/16/2007 21:45",
+		"width" : "pmm 9/16/2007 21:45" } }

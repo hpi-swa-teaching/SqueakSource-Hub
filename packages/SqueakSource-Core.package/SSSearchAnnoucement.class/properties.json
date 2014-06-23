@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakSource-Core-Announcements",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"searchText" ],
+	"name" : "SSSearchAnnoucement",
+	"pools" : [
+		 ],
+	"super" : "Announcement",
+	"type" : "normal" }

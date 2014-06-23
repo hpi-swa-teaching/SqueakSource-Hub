@@ -1,0 +1,3 @@
+testing
+isRelease
+	^self release

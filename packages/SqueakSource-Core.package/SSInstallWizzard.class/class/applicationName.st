@@ -1,0 +1,4 @@
+accessing
+applicationName
+
+	^'installSS'

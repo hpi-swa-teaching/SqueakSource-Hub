@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakSource-Core-Magritte",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SSPortCondition",
+	"pools" : [
+		 ],
+	"super" : "SSCondition",
+	"type" : "normal" }

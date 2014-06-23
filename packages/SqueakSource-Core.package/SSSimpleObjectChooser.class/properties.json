@@ -1,0 +1,17 @@
+{
+	"category" : "SqueakSource-Core-View-Components",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"heading",
+		"selection",
+		"info",
+		"infoBlock" ],
+	"name" : "SSSimpleObjectChooser",
+	"pools" : [
+		 ],
+	"super" : "SSComponent",
+	"type" : "normal" }

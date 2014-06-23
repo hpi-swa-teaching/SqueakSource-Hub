@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakSource-Core-Handlers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SSProjectHandler",
+	"pools" : [
+		 ],
+	"super" : "SSHandler",
+	"type" : "normal" }

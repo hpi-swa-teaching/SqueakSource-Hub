@@ -1,0 +1,1 @@
+(name 'SqueakSource-Core-topa.35'message 'Move an override that is squeak-specifc.Also, fix email handling.SSEmailErrorHandler works now,SSSendPassword not yet, but this is more a continuations-related problem.'id '5f9b4718-a4dc-4547-be00-b39d18d550b4'date '20 May 2011'time '9:49:40 am'author 'topa'ancestors ()stepChildren ())

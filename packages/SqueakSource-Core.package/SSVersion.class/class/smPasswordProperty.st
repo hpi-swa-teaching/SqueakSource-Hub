@@ -1,0 +1,3 @@
+properties
+smPasswordProperty
+	^ #smPassword
