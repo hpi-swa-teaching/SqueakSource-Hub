@@ -1,3 +1,3 @@
-as yet unclassified
+visiting-description
 visitToManyRelationDescription: aDescription
-	self stream nextPutAll: (self object collect: [ :each | each id]) asJson.
+	(self object collect: [ :each | each id]) jsonOn: self stream

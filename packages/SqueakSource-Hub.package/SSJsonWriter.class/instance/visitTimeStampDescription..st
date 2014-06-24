@@ -1,3 +1,3 @@
-as yet unclassified
+visiting-description
 visitTimeStampDescription: aDescription
-	self stream nextPutAll: self object asSeconds asJson.
+	self object asSeconds jsonOn: self stream
