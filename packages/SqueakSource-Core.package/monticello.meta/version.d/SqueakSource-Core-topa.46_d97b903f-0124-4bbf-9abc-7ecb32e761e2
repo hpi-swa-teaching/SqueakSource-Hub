@@ -1,1 +1,0 @@
-(name 'SqueakSource-Core-topa.46'message '- Make search via stingsSatisfyBlocks work again- let add* methods return its sender- back out blocks in SSModel>>storeDataOn: instead of reinitialize them.'id 'd97b903f-0124-4bbf-9abc-7ecb32e761e2'date '25 May 2011'time '11:47:28 am'author 'topa'ancestors ()stepChildren ())

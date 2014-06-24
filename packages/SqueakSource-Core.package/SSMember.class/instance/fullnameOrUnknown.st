@@ -1,4 +1,0 @@
-accessing
-fullnameOrUnknown
-
-	^ self printString

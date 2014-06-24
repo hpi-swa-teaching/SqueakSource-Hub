@@ -1,4 +1,0 @@
-actions
-search
-	
-	self resetReport

@@ -1,5 +1,0 @@
-private
-shouldCacheRoutes
-
-	^ true
-"	^ false"

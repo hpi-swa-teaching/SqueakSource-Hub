@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakSource-Hub-Handlers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SSLoginHandler",
+	"pools" : [
+		 ],
+	"super" : "SSHandler",
+	"type" : "normal" }

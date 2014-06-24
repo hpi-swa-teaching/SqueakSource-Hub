@@ -1,3 +1,0 @@
-accessing
-fullnameOrUnknown
-	^self fullname

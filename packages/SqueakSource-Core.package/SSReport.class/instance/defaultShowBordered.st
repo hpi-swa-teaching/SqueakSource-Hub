@@ -1,3 +1,0 @@
-defaults
-defaultShowBordered
-	^ false

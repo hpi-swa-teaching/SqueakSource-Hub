@@ -1,9 +1,0 @@
-{
-	"class" : {
-		"isAbstract" : "topa 9/13/2011 09:11" },
-	"instance" : {
-		"actualClass" : "pmm 9/2/2007 13:06",
-		"instance" : "topa 9/13/2011 09:17",
-		"setUp" : "topa 9/13/2011 09:16",
-		"testAtLeast" : "topa 9/13/2011 09:13",
-		"testAtMost" : "topa 9/13/2011 09:13" } }

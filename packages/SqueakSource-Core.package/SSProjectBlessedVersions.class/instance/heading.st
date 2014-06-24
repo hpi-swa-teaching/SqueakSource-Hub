@@ -1,4 +1,0 @@
-accessing
-heading
-
-	^ 'Blessed versions'

@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakSource-Hub-Handlers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SSJsonWriter",
+	"pools" : [
+		 ],
+	"super" : "MJJsonWriter",
+	"type" : "normal" }

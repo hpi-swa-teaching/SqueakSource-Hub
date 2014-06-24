@@ -1,7 +1,0 @@
-{
-	"class" : {
-		"path" : "rs 6/12/2014 12:49" },
-	"instance" : {
-		"getMagritteProject:" : "rs 5/27/2014 12:59",
-		"getProjectsOfMember:" : "rs 6/19/2014 10:13",
-		"searchProjectsNamed:" : "rs 6/23/2014 14:18" } }

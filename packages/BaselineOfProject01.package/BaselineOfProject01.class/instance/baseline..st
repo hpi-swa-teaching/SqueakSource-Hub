@@ -5,11 +5,11 @@ baseline: spec
 		for: #'common'
 		do: [
 			spec
-				package: 'SqueakSource-Core-Handlers' with: [spec requires: #('MagritteJson' 'SqueakSource')];
-				package: 'SqueakSource-Tests-Handlers' with: [spec requires: #('SqueakSource-Core-Handlers')].
+				package: 'SqueakSource-Hub-Handlers' with: [spec requires: #('MagritteJson' 'SqueakSource')];
+				package: 'SqueakSource-Hub-Tests' with: [spec requires: #('SqueakSource-Hub-Handlers')].
 			spec
-				group: 'default' with: #('SqueakSource-Core-Handlers');
-				group: 'Tests' with: #('SqueakSource-Tests-Handlers');
+				group: 'default' with: #('SqueakSource-Hub-Handlers');
+				group: 'Tests' with: #('SqueakSource-Hub-Tests');
 				group: 'TravisCI' with: #('Tests');
 				yourself.
 			spec

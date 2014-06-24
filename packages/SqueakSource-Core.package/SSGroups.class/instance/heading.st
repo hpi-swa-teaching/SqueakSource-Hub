@@ -1,3 +1,0 @@
-rendering
-heading
-	^ 'Groups'

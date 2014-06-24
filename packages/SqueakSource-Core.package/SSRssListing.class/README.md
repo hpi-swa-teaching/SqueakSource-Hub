@@ -1,1 +1,0 @@
-http://blogs.law.harvard.edu/tech/rss

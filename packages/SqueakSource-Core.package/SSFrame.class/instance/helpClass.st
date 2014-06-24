@@ -1,3 +1,0 @@
-configuration
-helpClass
-	^SSHelp

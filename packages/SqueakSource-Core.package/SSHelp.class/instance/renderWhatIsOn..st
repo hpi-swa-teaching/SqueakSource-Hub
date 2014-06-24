@@ -1,5 +1,0 @@
-rendering
-renderWhatIsOn: html
-	html heading level2; with: 'What is SqueakSource?'. 
-	html paragraph: 'SqueakSource is a monticello code repository server which hosts your projects. You  connect to it with the monticello client to commit and load code. SqueakSource also implements a web-frontend (which you are looking at) which makes it easy to create and admin your projects or browse other public projects.'.
-	html paragraph: 'The creator of a project assigns the global access-policy and which people are administrators, developers and guests. Further-on the committed versions of your code can be marked as releases to be public accessible. Other features are to automatically register a release on SqueakMap or browse the code with your web-browser using a similar interface like the code-browser of squeak. RSS-Feeds of all SqueakSource projects and of single projects are available: They show all public versions and releases plus additional items created by the project admin.'.

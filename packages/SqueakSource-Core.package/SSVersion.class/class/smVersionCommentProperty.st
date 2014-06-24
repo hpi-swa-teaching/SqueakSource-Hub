@@ -1,3 +1,0 @@
-properties
-smVersionCommentProperty
-	^ #smVersionComment

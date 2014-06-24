@@ -1,8 +1,0 @@
-{
-	"class" : {
-		"model:announcer:" : "topa 4/27/2012 09:48" },
-	"instance" : {
-		"announcer" : "topa 4/27/2012 09:39",
-		"announcer:" : "topa 4/27/2012 09:39",
-		"callOnParent:" : "topa 4/27/2012 09:45",
-		"initializeWithAnnouncer:" : "topa 4/27/2012 09:47" } }

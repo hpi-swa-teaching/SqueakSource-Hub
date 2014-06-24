@@ -1,3 +1,0 @@
-accessing
-storage
-	^ SSRepository storage

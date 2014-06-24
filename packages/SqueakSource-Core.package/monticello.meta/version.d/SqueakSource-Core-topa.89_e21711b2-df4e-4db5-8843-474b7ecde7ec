@@ -1,1 +1,0 @@
-(name 'SqueakSource-Core-topa.89'message 'Fixes Issue 53: initialization hook pragma should be uniqeThe new pragmas are#initialization instead of #initialize#finalization instead of #finalize'id 'e21711b2-df4e-4db5-8843-474b7ecde7ec'date '26 April 2012'time '3:33:33 pm'author 'topa'ancestors ((id '11186d1c-5c09-46d9-9024-ca974e6256c0'))stepChildren ())

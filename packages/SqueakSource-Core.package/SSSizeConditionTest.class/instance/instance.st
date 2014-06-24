@@ -1,4 +1,0 @@
-private
-instance
-
-	^ sizeCondition

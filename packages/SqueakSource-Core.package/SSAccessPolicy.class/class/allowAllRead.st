@@ -1,3 +1,0 @@
-global rights
-allowAllRead
-	^#read

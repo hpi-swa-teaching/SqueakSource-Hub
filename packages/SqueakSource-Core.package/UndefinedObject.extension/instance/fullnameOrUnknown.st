@@ -1,3 +1,0 @@
-*squeaksource-core
-fullnameOrUnknown
-	^'unknown'

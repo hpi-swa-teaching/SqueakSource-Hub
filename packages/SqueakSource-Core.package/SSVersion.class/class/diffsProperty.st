@@ -1,3 +1,0 @@
-properties
-diffsProperty
-	^ #diffs

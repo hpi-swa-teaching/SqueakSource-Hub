@@ -1,1 +1,0 @@
-(name 'SqueakSource-Core-topa.50'message 'refactor SSFilteringComponentto use pragma-based Columns, allows for extension.'id '9c583dcc-d5a7-48cd-ba29-16bb8bce32b9'date '29 June 2011'time '8:33:07 am'author 'topa'ancestors ((id '5990ac32-dbce-4604-8f23-e99f34aebf10'))stepChildren ())

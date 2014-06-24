@@ -1,3 +1,0 @@
-properties
-smUsernameProperty
-	^ #smUsername

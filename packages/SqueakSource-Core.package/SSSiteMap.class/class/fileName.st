@@ -1,4 +1,0 @@
-defaults
-fileName
-	
-	^ 'sitemap.xml'

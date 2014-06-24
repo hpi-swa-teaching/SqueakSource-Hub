@@ -1,4 +1,0 @@
-accessing
-licenseJson
-
-	^ license first

@@ -1,6 +1,0 @@
-- senders of #render: -> #children
-- style stuff for tables, cells, batch
-- color icon in table not again table
-- SSProject licenses
-- incomment storage code - check with impara
-- null storage

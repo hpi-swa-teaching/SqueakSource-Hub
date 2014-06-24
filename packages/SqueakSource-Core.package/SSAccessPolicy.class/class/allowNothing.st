@@ -1,3 +1,0 @@
-global rights
-allowNothing
-	^#noAccess

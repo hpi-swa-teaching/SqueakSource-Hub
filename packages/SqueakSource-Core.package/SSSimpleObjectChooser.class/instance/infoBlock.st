@@ -1,4 +1,0 @@
-accessing
-infoBlock
-
-	^ infoBlock

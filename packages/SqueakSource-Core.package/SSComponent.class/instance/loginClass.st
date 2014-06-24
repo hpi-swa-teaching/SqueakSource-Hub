@@ -1,3 +1,0 @@
-configuration
-loginClass
-	^SSLogin

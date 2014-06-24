@@ -1,3 +1,0 @@
-accessing
-defaultSize
-	^20
