@@ -1,0 +1,3 @@
+running
+isAbstract 
+	^ true

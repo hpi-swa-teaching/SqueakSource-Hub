@@ -1,0 +1,3 @@
+running
+handlerClass 
+	^ self subclassResponsibility

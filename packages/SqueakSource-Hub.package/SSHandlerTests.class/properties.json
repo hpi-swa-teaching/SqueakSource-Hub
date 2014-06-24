@@ -1,13 +1,15 @@
 {
-	"category" : "SqueakSource-Tests-Handlers",
+	"category" : "SqueakSource-Hub-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "SSMemberHandlerTests",
+		"savedRepository",
+		"savedStorage",
+		"handler" ],
+	"name" : "SSHandlerTests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
