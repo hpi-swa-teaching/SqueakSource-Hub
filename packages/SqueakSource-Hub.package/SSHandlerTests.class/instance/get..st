@@ -7,7 +7,7 @@ get: aSymbolList
 		yourself.
 	request := WARequest
 		method: 'GET'
-		uri: requestUrl.
+		uri: requestUrl pathStringUnencoded.
 	context := WARequestContext request: request response: WABufferedResponse new.
 	
 	[ handler handle: context ]
