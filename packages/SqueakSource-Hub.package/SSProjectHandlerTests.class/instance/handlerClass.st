@@ -1,3 +1,3 @@
 configuration
 handlerClass
-	^ SSMemberHandler
+	^ SSProjectHandler

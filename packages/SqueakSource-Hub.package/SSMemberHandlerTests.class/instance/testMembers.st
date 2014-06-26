@@ -2,7 +2,7 @@ tests
 testMembers
 	| json |
 	
-	SSRepository current addMember: (SSMember login: 'maxmuster').
+	SSRepository current addMember: ((SSMember login: 'maxmuster') fullname: '').
 	json := self getJson: #('maxmuster').		
 	
 	self assert: (json includesKey: 'name');

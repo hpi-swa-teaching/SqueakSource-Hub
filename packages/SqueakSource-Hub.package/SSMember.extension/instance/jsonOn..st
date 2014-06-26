@@ -18,6 +18,7 @@ jsonOn: aRenderer
 						yourself),
 					(self descriptionName
 						jsonName: 'fullName';
+						beOptional;
 						yourself)).
 
 	description jsonWriter
