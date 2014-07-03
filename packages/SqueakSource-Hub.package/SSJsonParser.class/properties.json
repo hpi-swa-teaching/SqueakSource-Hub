@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakSource-Hub-Handlers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SSJsonParser",
+	"pools" : [
+		 ],
+	"super" : "MJJsonParser",
+	"type" : "normal" }

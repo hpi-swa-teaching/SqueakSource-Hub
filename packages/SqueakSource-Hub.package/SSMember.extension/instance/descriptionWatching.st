@@ -4,5 +4,6 @@ descriptionWatching
 		accessor: #favorites;
 		jsonName: 'watching';
 		jsonWriter: SSJsonWriter;
+		useJsonKey: true;
 		beHidden;
 		yourself
