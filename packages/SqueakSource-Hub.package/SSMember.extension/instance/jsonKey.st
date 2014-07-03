@@ -1,3 +1,3 @@
 *SqueakSource-Hub-accessing
-id
+jsonKey
 	^ self login

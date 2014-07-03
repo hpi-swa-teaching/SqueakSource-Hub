@@ -1,5 +1,8 @@
 {
 	"class" : {
-		 },
+		"path" : "rs 7/1/2014 14:25" },
 	"instance" : {
-		"redirectFrom:project:" : "rs 6/24/2014 10:12" } }
+		"diffText:project:owner:" : "rs 7/3/2014 10:14",
+		"getListingOf:owner:" : "rs 7/3/2014 10:22",
+		"getMCListingOf:owner:" : "rs 7/3/2014 10:22",
+		"getVersion:project:owner:" : "rs 7/3/2014 10:17" } }

@@ -1,8 +1,7 @@
 *SqueakSource-Hub-descriptions
-descriptionSid
+descriptionPath
 
 	^ MAStringDescription new
-		accessor: #jsonKey;
-		jsonName: 'sid';
+		accessor: #path;
 		beHidden;
 		yourself

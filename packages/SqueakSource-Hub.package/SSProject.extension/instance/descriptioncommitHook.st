@@ -1,5 +1,5 @@
 *SqueakSource-Hub-descriptions
-descriptioncommitHook
+descriptionCommitHook
 
 	^ MAStringDescription new
 		accessor: #commitHook;
