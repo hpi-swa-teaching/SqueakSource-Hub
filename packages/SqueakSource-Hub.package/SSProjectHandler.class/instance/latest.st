@@ -6,6 +6,6 @@ latest
 	
 	| sortedProjects |
 	sortedProjects := SSRepository current projects asSortedCollection sortBlock: [ :a :b | a timestamp > b timestamp].
-	(sortedProjects size < 15)
+	sortedProjects size < 15
 		ifTrue: [ ^ sortedProjects asJson ]
-		ifFalse: [ ^ (sortedProjects copyFrom: 1 to: 15) asJson ]
+		ifFalse: [ ^ (sortedProjects first: 15) asJson ]

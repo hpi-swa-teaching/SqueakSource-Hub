@@ -8,4 +8,5 @@ latest
 	sortedMembers := SSRepository current members asSortedCollection sortBlock: [ :a :b | a timestamp > b timestamp].
 	(sortedMembers size < 15)
 		ifTrue: [ ^ sortedMembers asJson ]
-		ifFalse: [ ^ (sortedMembers copyFrom: 1 to: 15) asJson ]
+		ifFalse: [ ^ (sortedMembers first: 15) asJson ]
+	
