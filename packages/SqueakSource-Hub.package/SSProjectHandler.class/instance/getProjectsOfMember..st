@@ -4,9 +4,8 @@ getProjectsOfMember: login
 	<path: '/{login}'>
 	<produces: 'text/json'>
 
-	| member currentMember |
+	| member |
 	member := SSRepository current memberAt: login
 									       ifAbsent: [ self requestContext respond: [ :response |
 											  								   	  response notFound ] ].
-	currentMember := self currentMember ifNil: [ SSMember anonymousMember ].
-	^ (member projects select: [ :each | each accessPolicy isMember: currentMember allowedTo: #read]) asJson
+	^ (SSRepository current visibleProjectsTo: self select: [:each | each hasMember: member]) asJson
