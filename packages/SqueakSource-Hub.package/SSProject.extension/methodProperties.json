@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"asTimelineEvent" : "dg 7/7/2014 17:06",
 		"commitHook" : "rs 6/24/2014 23:20",
 		"descriptionCommitHook" : "rs 7/1/2014 10:04",
 		"descriptionContributors" : "rs 6/24/2014 23:26",

@@ -3,7 +3,7 @@ memberFromCookie
 	| repository member |
 
 	repository := SSRepository current.
-	member := repository memberAt: self loginCookieValue ifAbsent: [ ^ nil ].
+	member := repository memberAt: self loginCookieValue ifAbsent: [ ^ SSMember anonymousMember ].
 	(member passwordHash = self passwordCookieValue asNumber)
 		ifTrue: [ ^ member ]
-		ifFalse: [ ^ nil ].
+		ifFalse: [ ^ SSMember anonymousMember ].

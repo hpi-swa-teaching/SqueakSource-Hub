@@ -17,24 +17,15 @@ testSearchProjectsNamed
 		addProject: project2.
 	
 	response := (self get: #('?term=est')) response.
-	Transcript show: response contents.
-	Transcript cr.
-	Transcript show: (Array with: project1 with: project2) asJson.
 	self assert: (response status = 200).
 	self assert: (response contents = (Array with: project1) asJson).
 	
 	response := (self get: #('?term=Muster')) response.
-	Transcript show: response contents.
-	Transcript cr.
-	Transcript show: (Array with: project1 with: project2) asJson.
 	self assert: (response status = 200).
 	self assert: (response contents = (Array with: project2) asJson).
 
 
 	response := (self get: #('?term=Pro')) response.
-	Transcript show: response contents.
-	Transcript cr.
-	Transcript show: (Array with: project1 with: project2) asJson.
 	self assert: (response status = 200).
 	self assert: (response contents = (Array with: project1 with: project2) asJson).
 	
