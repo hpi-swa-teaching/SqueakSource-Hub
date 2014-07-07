@@ -17,7 +17,12 @@ jsonDescription
 			yourself),
 		(self descriptionName
 			jsonName: 'fullName';
+			yourself),
+		(self descriptionPassword
+			jsonName: 'password';
+			isJsonSerialized: false;
 			yourself))
 
 			jsonWriter: SSJsonWriter;
+			jsonReader: SSJsonReader;
 			yourself

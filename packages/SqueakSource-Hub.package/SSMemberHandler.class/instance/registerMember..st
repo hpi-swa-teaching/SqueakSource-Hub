@@ -7,7 +7,8 @@ registerMember: login
 	
 	| member |
 	member := (SSMember login: login)
-					fromJson: (JSJsonParser parse: self requestContext request rawBody);
+					fullname: login;
+					fromJson: self requestContext request rawBody;
 					yourself.
 	SSRepository current addMember: member.
 	self setCookieWithKey: self loginCookieKey value: member login.

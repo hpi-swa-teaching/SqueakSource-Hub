@@ -3,7 +3,8 @@
 		"path" : "rs 6/12/2014 12:49" },
 	"instance" : {
 		"count" : "rs 6/24/2014 11:59",
-		"getMagritteProject:" : "rs 5/27/2014 12:59",
+		"getProject:owner:" : "rs 7/3/2014 12:45",
 		"getProjectsOfMember:" : "dg 7/7/2014 19:14",
 		"latest" : "dg 7/7/2014 19:11",
-		"searchProjectsNamed:" : "dg 7/7/2014 19:15" } }
+		"searchProjectsNamed:" : "dg 7/7/2014 19:15",
+		"updateProject:owner:" : "rs 7/7/2014 23:18" } }

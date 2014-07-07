@@ -4,4 +4,4 @@ getUserTeams: username
 	<path: '/{username}/teams'>
 	<produces: 'text/json'>
 	
-	^ (SSRepository current memberAt: username ifAbsent: [ self notFound ]) groups asJson
+	^ (SSRepository current memberAt: username ifAbsent: [ ^ self notFound ]) groups asJson

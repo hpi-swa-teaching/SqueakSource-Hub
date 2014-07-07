@@ -5,6 +5,7 @@
 		"registerAll" : "he 6/26/2014 12:43" },
 	"instance" : {
 		"currentMember" : "dg 7/7/2014 17:14",
+		"currentMemberOrRespondInvalid" : "dg 7/7/2014 20:14:24.2",
 		"loginCookieKey" : "rs 6/10/2014 09:29",
 		"loginCookieValue" : "rs 6/10/2014 09:29",
 		"memberFromAuthorization" : "rs 6/12/2014 09:40",
@@ -14,4 +15,4 @@
 		"respondForbidden" : "rs 7/3/2014 12:43",
 		"respondInvalidLoginData" : "rs 6/22/2014 13:29",
 		"setCookieWithKey:value:" : "rs 6/10/2014 09:21",
-		"setCookieWithKey:value:expireIn:" : "rs 6/10/2014 09:21" } }
+		"setCookieWithKey:value:expireIn:" : "rs 7/7/2014 17:49" } }
