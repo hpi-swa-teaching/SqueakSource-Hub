@@ -6,5 +6,5 @@ getCurrentMember
 
 	| member |
 	member := self currentMember.
-	member isAnonymous ifTrue: [ self respondInvalidLoginData ].
+	member isAnonymous ifTrue: [^ self respondInvalidLoginData].
 	^ member asJson

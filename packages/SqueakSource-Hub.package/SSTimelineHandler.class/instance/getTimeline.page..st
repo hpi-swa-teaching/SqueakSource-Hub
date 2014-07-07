@@ -5,10 +5,9 @@ getTimeline: username page: aString
 	<produces: 'text/json'>
 
 	| page member timeline |
-	page := aString asInteger ifNil: [self badRequest].
-	member := SSRepository current memberAt: username ifAbsent: [
-		self requestContext respond: [ :response |
-										response notFound ] ].
+	page := aString asInteger ifNil: [^ self badRequest].
+	
+	member := SSRepository current memberAt: username ifAbsent: [^ self notFound].
 	timeline := self generateTimeline: member.	
 	
 	timeline copyFrom: ((page - 1) * self pageSize + 1) 

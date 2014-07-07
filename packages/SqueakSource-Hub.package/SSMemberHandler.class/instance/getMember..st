@@ -4,11 +4,4 @@ getMember: login
 	<path: '/{login}'>
 	<produces: 'text/json'>
 
-	| repository member |
-	repository := SSRepository current.
-	member := repository memberAt: login.
-	member ifNil: [
-		self requestContext respond: [ :response |
-										response notFound ] ].
-
-	^ member asJson
+	^ (SSRepository current memberAt: login ifAbsent: [self notFound]) asJson

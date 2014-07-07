@@ -4,4 +4,4 @@ getCurrentMemberTeams
 	<path: '/teams'>
 	<produces: 'text/json'>
 	
-	^ (self currentMember isAnonymous ifTrue: [ self respondInvalidLoginData ]) groups asJson
+	^ (self currentMember isAnonymous ifTrue: [self respondInvalidLoginData]) groups asJson

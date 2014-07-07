@@ -6,9 +6,7 @@ getTimeline: username
  	
 	| member timeline |
 	
-	member := SSRepository current memberAt: username ifAbsent: [
-		self requestContext respond: [ :response |
-										response notFound ] ].
+	member := SSRepository current memberAt: username ifAbsent: [^ self notFound].
 	timeline := self generateTimeline: member.							
 	
 	^ timeline asJson 
