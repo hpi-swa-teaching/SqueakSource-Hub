@@ -1,19 +1,14 @@
-as yet unclassified
+request-handling
 getTimeline: username
 	<get>
 	<path: '/{username}'>
 	<produces: 'text/json'>
-
-	| repository member createdProjects timeline |
-	repository := SSRepository current.
-	member := repository memberAt: username.
-	member isAnonymous ifTrue: [
+ 	
+	| member timeline |
+	
+	member := SSRepository current memberAt: username ifAbsent: [
 		self requestContext respond: [ :response |
 										response notFound ] ].
-								
-	createdProjects := SSRepository current visibleProjectsTo: self currentMember select: [:each |
-		each creator = member].
+	timeline := self generateTimeline: member.							
 	
-	timeline := createdProjects collect: [:each | each asTimelineEvent ].
-
 	^ timeline asJson 

@@ -6,7 +6,8 @@ updateMember: login
 	<produces: 'text/plain'>
 
 	| member |
-	self currentMember ifNil: [ self respondInvalidLoginData ].
+	self currentMember isAnonymous ifTrue: [ self respondInvalidLoginData ].
 	member := SSRepository current memberAt: login ifAbsent: [ ^ 'Invalid user.' ].
+	(self currentMember =  member) ifFalse: [ ^ self respondInvalidLoginData ].
 	member fromJson: self requestContext request rawBody.
 	^ 'ok'

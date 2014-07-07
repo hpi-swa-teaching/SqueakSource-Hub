@@ -6,4 +6,4 @@ searchProjectsNamed: aString
 	
 	| regex |
 	regex := aString asRegexIgnoringCase.
-	^ (SSRepository current projectsSelect: [ :each | regex search: each title ]) asJson 
+	^ (SSRepository current visibleProjectsTo: self currentMember select: [ :each | regex search: each title ]) asJson 
