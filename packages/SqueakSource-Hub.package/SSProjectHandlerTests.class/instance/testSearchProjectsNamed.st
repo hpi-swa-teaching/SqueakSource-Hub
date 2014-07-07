@@ -11,6 +11,7 @@ testSearchProjectsNamed
 						id: 'Project2';
 						title: 'Muster-Projekt';
 						license: #('MIT' 'http://www.opensource.org/licenses/mit-license.php').
+
 	SSRepository current
 		addMember: member;
 		addProject: project1;
@@ -19,13 +20,26 @@ testSearchProjectsNamed
 	response := (self get: #('?term=est')) response.
 	self assert: (response status = 200).
 	self assert: (response contents = (Array with: project1) asJson).
+	Transcript 
+		cr;
+		show: response contents;
+		cr;
+		show: (Array with: project1) asJson.
 	
 	response := (self get: #('?term=Muster')) response.
 	self assert: (response status = 200).
 	self assert: (response contents = (Array with: project2) asJson).
-
+	Transcript 
+		cr;
+		show: response contents;
+		cr;
+		show: (Array with: project2) asJson.
 
 	response := (self get: #('?term=Pro')) response.
 	self assert: (response status = 200).
 	self assert: (response contents = (Array with: project1 with: project2) asJson).
-	
+	Transcript 
+		cr;
+		show: response contents;
+		cr;
+		show: (Array with: project1 with: project2) asJson.
