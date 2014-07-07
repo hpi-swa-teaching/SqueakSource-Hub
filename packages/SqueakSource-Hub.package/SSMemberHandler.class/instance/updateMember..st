@@ -6,7 +6,6 @@ updateMember: login
 	<produces: 'text/plain'>
 
 	| member |
-	self currentMember ifNil: [ self respondInvalidLoginData ].
-	member := SSRepository current memberAt: login ifAbsent: [ ^ 'Invalid user.' ].
+	member := self currentMember ifNil: [ self respondInvalidLoginData ].
 	member fromJson: self requestContext request rawBody.
 	^ 'ok'

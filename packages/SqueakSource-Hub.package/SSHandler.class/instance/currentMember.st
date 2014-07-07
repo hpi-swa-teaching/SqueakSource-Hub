@@ -1,3 +1,3 @@
 as yet unclassified
 currentMember
-	self memberFromAuthorization ifNil: [ ^ self memberFromCookie ].
+	^ self memberFromAuthorization ifNil: [ self memberFromCookie ].

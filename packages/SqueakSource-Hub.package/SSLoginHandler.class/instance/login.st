@@ -1,14 +1,16 @@
 request-handling
 login
 	<post>
+	<path: ''>
 	<consumes: '*/json'>
+	<produces: 'text/plain'>
 	
 	| input member |
 	input := JSJsonParser parse: self requestContext request rawBody.
-	member := SSRepository current memberAt: (input at: 'login' ifAbsent: [ ^ nil asJson ]) ifAbsent: [ ^ nil ].
-	(member isPasswordValid: (input at: 'password' ifAbsent: [ ^ nil ]))
-		ifTrue: [ self setCookieWithKey: self loginCookieKey value: member login.
-				self setCookieWithKey: self passwordCookieKey value: member passwordHash asString.
+	member := SSRepository current memberAt: (input at: 'username' ifAbsent: [ nil ])
+										ifAbsent: [ self respondInvalidLoginData ].
+	(member isPasswordValid: (input at: 'password' ifAbsent: [ nil ]))
+		ifTrue: [ self setCookiesForMember: member.
 				^ 'OK' ].
 
 	^ self notFound

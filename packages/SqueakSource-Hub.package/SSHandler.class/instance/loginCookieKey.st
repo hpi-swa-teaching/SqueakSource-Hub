@@ -1,3 +1,3 @@
-as yet unclassified
+cookies
 loginCookieKey
 	^ 'login'
