@@ -7,9 +7,10 @@ baseline: spec
 			spec
 				package: 'SqueakSource-Hub' with: [spec requires: #('MagritteJson' 'SqueakSource')].
 			spec
-				package: 'VB-Regex' with: [spec repository: 'http://www.squeaksource.com/Regex'].
+				package: 'VB-Regex' with: [
+					spec repository: 'http://www.squeaksource.com/Regex'].
 			spec
-				group: 'default' with: #('SqueakSource-Hub');
+				group: 'default' with: #('SqueakSource-Hub' 'VB-Regex');
 				group: 'TravisCI' with: #('default');
 				yourself.
 			spec
