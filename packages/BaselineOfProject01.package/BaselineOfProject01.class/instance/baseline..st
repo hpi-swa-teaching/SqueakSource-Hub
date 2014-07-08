@@ -20,4 +20,10 @@ baseline: spec
 					versionString:#bleedingEdge;
 					loads: #( 'Standard' 'Tests' );
 					repository: 'http://www.squeaksource.com/squeaksource3' ];
-				yourself.]
+				yourself.].
+			
+	spec
+		for: #squeak
+		do: [
+			spec package: 'VB-Regex' with: [
+				spec repository: 'http://www.squeaksource.com/Regex']].
