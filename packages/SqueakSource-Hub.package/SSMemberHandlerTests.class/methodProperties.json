@@ -4,5 +4,8 @@
 	"instance" : {
 		"handlerClass" : "dg 6/24/2014 15:55",
 		"testCount" : "rs 6/26/2014 09:59",
-		"testLatests" : "dg 7/3/2014 20:47",
-		"testMembers" : "rs 6/26/2014 09:48" } }
+		"testGetCurrentMember" : "dg 7/8/2014 21:31",
+		"testGetCurrentMemberTeams" : "dg 7/8/2014 21:31",
+		"testGetMember" : "dg 7/8/2014 21:25",
+		"testGetUserTeams" : "dg 7/8/2014 21:38",
+		"testLatests" : "dg 7/3/2014 20:47" } }

@@ -3,8 +3,8 @@
 		"path" : "rs 6/12/2014 12:48" },
 	"instance" : {
 		"count" : "rs 6/24/2014 11:59",
-		"getCurrentMember" : "dg 7/7/2014 23:18",
-		"getCurrentMemberTeams" : "rs 7/8/2014 14:35",
+		"getCurrentMember" : "dg 7/8/2014 21:30",
+		"getCurrentMemberTeams" : "dg 7/8/2014 21:30",
 		"getMember:" : "dg 7/7/2014 23:18",
 		"getUserTeams:" : "dg 7/7/2014 23:07",
 		"getWatchedProjectsByMember:" : "rs 7/8/2014 10:25",

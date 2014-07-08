@@ -10,7 +10,6 @@ getTimeline: username page: aString
 	member := SSRepository current memberAt: username ifAbsent: [^ self notFound].
 	timeline := self generateTimeline: member.	
 	
-	timeline copyFrom: ((page - 1) * self pageSize + 1) 
+	timeline := timeline copyFrom: ((page - 1) * self pageSize + 1) 
 			to: (page * self pageSize min: timeline size).
-	
 	^ timeline asJson 

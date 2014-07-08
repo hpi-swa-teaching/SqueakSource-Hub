@@ -1,5 +1,5 @@
 tests
-testMembers
+testGetMember
 	| json |
 	
 	SSRepository current addMember: ((SSMember login: 'maxmuster') fullname: '').
@@ -16,4 +16,7 @@ testMembers
 		assert: (json includesKey: 'location');
 		assert: (json includesKey: 'fullName');
 		assert: (json includesKey: 'username');
-		assert: (json includesKey: 'email').
+		assert: (json includesKey: 'email');
+		assert: ((json at: 'path') = '~maxmuster');
+		assert: ((json at: 'sid') = 'maxmuster');
+		assert: ((json at: 'name') = 'maxmuster').

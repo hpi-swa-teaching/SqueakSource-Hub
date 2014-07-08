@@ -5,6 +5,5 @@ getCurrentMemberTeams
 	<produces: 'text/json'>
 	
 	| member |
-	member := self currentMember.
-	member isAnonymous ifTrue: [^self respondInvalidLoginData].
+	member := self currentMemberOrRespondInvalid.
 	^ member groups asJson
