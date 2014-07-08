@@ -4,7 +4,7 @@ language: erlang
 env:
    - ST=GemStone-3.0.1
    - ST=Pharo-2.0
-   
+
 # For SqueakSSL
 before_install:
    - sudo apt-get -qq install libssl0.9.8:i386
@@ -24,5 +24,3 @@ install:
 # use verbose flag to dump transcript unconditionally
 script: 
    - $BUILDER_CI_HOME/testTravisCI.sh  -verbose
-   - cat TravisTranscript.txt
-
