@@ -11,4 +11,4 @@ asTimelineEvent
 		at: 'sid' put: self name;
 		at: 'username' put: self creator name;
 		at: 'timestamp' put: self timestamp asSeconds;
-		yourself.
+		yourself
