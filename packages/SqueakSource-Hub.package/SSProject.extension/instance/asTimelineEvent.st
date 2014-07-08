@@ -1,16 +1,14 @@
 *SqueakSource-Hub-json
 asTimelineEvent
-	| dict |
-	dict := Dictionary new.
-	dict 
+	^ Dictionary new
 		at: 'type' put: 'project';
 		at: 'projectId' put: self name ;
-		at: 'title' put: self title;
+		at: 'title' put: 'created project';
 		at: 'project' put: (self creator login , '/' , self id);
 		at: 'description ' put: self information;
 		at: 'email' put: self creator email;
 		at: 'created' put: self timestamp asSeconds;
 		at: 'sid' put: self name;
 		at: 'username' put: self creator name;
-		at: 'timestamp' put: self timestamp asSeconds.
-	^ dict
+		at: 'timestamp' put: self timestamp asSeconds;
+		yourself.
