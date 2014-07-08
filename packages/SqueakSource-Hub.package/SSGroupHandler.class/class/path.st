@@ -1,0 +1,3 @@
+configuration
+path
+	^ 'hub/teams'

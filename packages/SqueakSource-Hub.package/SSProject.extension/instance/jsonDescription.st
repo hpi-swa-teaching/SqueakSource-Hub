@@ -3,7 +3,7 @@ jsonDescription
 	^ ((self descriptionContributors
 			useJsonKey;
 			yourself),
-		(self descriptionIdentifier
+		(self descriptionSid
 			jsonName: 'sid';
 			yourself),			
 		(self descriptionInformation
@@ -14,7 +14,7 @@ jsonDescription
 		self descriptionPath,
 		self descriptionPublic,
 		self descriptionPublicWrite,
-		(self descriptionTitle
+		(self descriptionIdentifier
 			jsonName: 'name';
 			yourself),
 		self descriptionWebsite,

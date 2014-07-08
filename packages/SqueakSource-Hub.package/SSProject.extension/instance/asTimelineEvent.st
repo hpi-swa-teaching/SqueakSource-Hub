@@ -6,7 +6,7 @@ asTimelineEvent
 		at: 'type' put: 'project';
 		at: 'projectId' put: self name ;
 		at: 'title' put: self title;
-		at: 'project' put: (self creator name , '/' , self name);
+		at: 'project' put: (self creator login , '/' , self id);
 		at: 'description ' put: self information;
 		at: 'email' put: self creator email;
 		at: 'created' put: self timestamp asSeconds;

@@ -1,3 +1,3 @@
 *SqueakSource-Hub-accessing
-path
-	^ '~', self id
+sid
+	^ self id

@@ -6,6 +6,7 @@ updateMember: login
 	<produces: 'text/plain'>
 
 	| member |
-	member := self currentMember isAnonymous ifTrue: [^self respondInvalidLoginData].
+	member := self currentMember.
+	member isAnonymous ifTrue: [^self respondInvalidLoginData].
 	member fromJson: self requestContext request rawBody.
 	^ 'ok'
