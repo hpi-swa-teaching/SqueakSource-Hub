@@ -28,3 +28,7 @@ baseline: spec
 	spec
 		for: #squeak
 		do: [spec group: 'TravisCI' with: #('default' 'VB-Regex')].
+		
+	spec
+		for: #pharo
+		do: [spec group: 'TravisCI' with: #('default' 'VB-Regex')].
