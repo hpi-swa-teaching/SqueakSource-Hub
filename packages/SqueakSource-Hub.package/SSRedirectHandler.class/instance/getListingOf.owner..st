@@ -1,7 +1,8 @@
-as yet unclassified
+request-handling
 getListingOf: aString owner: aString2
 	<get>
 	<path: '{aString2}/{aString}/main'>
 
-	self requestContext respond: [ :response |
-									response redirectTo: '/ss/', aString, '/' ]
+	self requestContext respond: [:response |
+									response redirectTo: '/ss/', aString, '/'.
+									response status: WAResponse statusMovedPermanently]
