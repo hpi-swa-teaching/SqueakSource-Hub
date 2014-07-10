@@ -1,6 +1,6 @@
 tests
 testTimelinePage
-	| json member page |
+	| json member page response |
 	member := ((SSMember login: 'maxmuster') fullname: '').
 	page := self handlerClass new pageSize.
 	SSRepository current addMember: member.
@@ -10,3 +10,7 @@ testTimelinePage
 	self assert: (json size = page).
 	json := self getJson: #('maxmuster' '2').		
 	self assert: (json size = 2).
+	
+	response := (self get: #('maxmuster' 'NotaNumber')) response.
+	
+	self assert: (response status = 400).

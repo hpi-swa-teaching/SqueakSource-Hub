@@ -1,6 +1,6 @@
 tests
 testGetMember
-	| json |
+	| json response |
 	
 	SSRepository current addMember: ((SSMember login: 'maxmuster') fullname: '').
 	json := self getJson: #('maxmuster').		
@@ -20,3 +20,7 @@ testGetMember
 		assert: ((json at: 'path') = '~maxmuster');
 		assert: ((json at: 'sid') = 'maxmuster');
 		assert: ((json at: 'name') = 'maxmuster').
+	
+	response := (self get: #('anon')) response.
+	self assert: (response status = 404).
+	

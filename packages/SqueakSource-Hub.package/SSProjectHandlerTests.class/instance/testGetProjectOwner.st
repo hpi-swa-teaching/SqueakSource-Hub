@@ -1,6 +1,6 @@
 tests
 testGetProjectOwner
-	| member project1 json |
+	| member project1 json response |
 	
 	member := SSMember login: 'Test1'.
 	project1 := (SSProject creator: member)
@@ -28,3 +28,7 @@ testGetProjectOwner
 		assert: ((json at: 'sid') = 'Project1');
 		assert: ((json at: 'path') = '~Test1/Project1');
 		assert: ((json at: 'name') = 'Project1').
+		
+	response := (self get: #('Test1' 'Project2')) response.
+	
+	self assert: (response status = 403).

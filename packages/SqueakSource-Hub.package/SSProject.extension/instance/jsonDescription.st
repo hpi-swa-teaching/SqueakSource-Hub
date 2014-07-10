@@ -11,6 +11,7 @@ jsonDescription
 			yourself),
 		self descriptionLicenseJson,
 		self descriptionCreated,
+		self descriptionOwner,
 		self descriptionPath,
 		self descriptionPublic,
 		self descriptionPublicWrite,
