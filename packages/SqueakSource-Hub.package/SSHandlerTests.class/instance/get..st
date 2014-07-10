@@ -10,8 +10,8 @@ get: aSymbolList
 		uri: requestUrl pathStringUnencoded.
 	context := WARequestContext request: request response: WABufferedResponse new.
 	
-	[ handler handle: context ]
+	[handler handle: context]
 			on: WAResponseNotification
-			do: [ :notification | ].
+			do: [:notification | ].
 		
 	^ context

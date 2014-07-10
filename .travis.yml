@@ -2,8 +2,9 @@ language: erlang
 
 # Choose which platforms you want your builds run against (done in parallel)
 env:
-   - ST=GemStone-3.0.1
-   - ST=Pharo-2.0
+   - ST=Squeak-4.4
+   - ST=Squeak-4.5
+   - ST=Squeak-Trunk
 
 # For SqueakSSL
 before_install:

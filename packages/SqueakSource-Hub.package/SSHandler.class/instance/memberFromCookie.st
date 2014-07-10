@@ -6,4 +6,4 @@ memberFromCookie
 	member := repository memberAt: self loginCookieValue ifAbsent: [^ nil].
 	^ (member passwordHash = self passwordCookieValue asNumber)
 		ifTrue: [member]
-		ifFalse: [nil].
+		ifFalse: [nil]

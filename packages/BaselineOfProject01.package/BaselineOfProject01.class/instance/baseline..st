@@ -4,13 +4,13 @@ baseline: spec
 	spec
 		for: #'common'
 		do: [
-			spec
-				package: 'SqueakSource-Hub' with: [spec requires: #('MagritteJson' 'SqueakSource')].
-			spec
-				package: 'VB-Regex' with: [
+			spec package: 'SqueakSource-Hub' with: [
+					spec requires: #('MagritteJson' 'SqueakSource')].
+			spec package: 'VB-Regex' with: [
 					spec repository: 'http://www.squeaksource.com/Regex'].
 			spec
-				group: 'default' with: #('SqueakSource-Hub' 'VB-Regex');
+				group: 'default' with: #('SqueakSource-Hub');
+				group: 'requirements' with: #('MagritteJson' 'SqueakSource');
 				group: 'TravisCI' with: #('default');
 				yourself.
 			spec
@@ -27,6 +27,4 @@ baseline: spec
 			
 	spec
 		for: #squeak
-		do: [
-			spec package: 'VB-Regex' with: [
-				spec repository: 'http://www.squeaksource.com/Regex']].
+		do: [spec group: 'TravisCI' with: #('default' 'VB-Regex')].
