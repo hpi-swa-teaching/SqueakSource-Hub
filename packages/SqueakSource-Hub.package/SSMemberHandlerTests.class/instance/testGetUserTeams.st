@@ -3,7 +3,7 @@ testGetUserTeams
 	| json group member |
 	member := (SSMember login: 'maxmuster') fullname: ''.
 	group := SSGroup new id: 'TestTeam'.
-	group members add: member..
+	group members add: member.
 	SSRepository current 
 		addMember: member;
 		addGroup: group.
