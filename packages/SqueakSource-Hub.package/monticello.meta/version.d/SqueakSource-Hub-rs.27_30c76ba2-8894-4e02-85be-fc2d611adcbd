@@ -1,0 +1,1 @@
+(name 'SqueakSource-Hub-rs.27'message 'removed hardcoded /ss, now the actual application url is used if it can be detected'id '30c76ba2-8894-4e02-85be-fc2d611adcbd'date '23 July 2014'time '11:29:28.551 am'author 'rs'ancestors ((id '4b327fb3-834a-4c63-a98c-88f815f12d9a'))stepChildren ())

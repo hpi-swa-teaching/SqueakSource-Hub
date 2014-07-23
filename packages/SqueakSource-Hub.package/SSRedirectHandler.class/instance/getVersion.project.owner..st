@@ -4,5 +4,5 @@ getVersion: version project: name owner: username
 	<path: '/{username}/{name}/main/{version}.mcz'>
 
 	self requestContext respond: [:response |
-									response redirectTo: '/ss/', name, '/', version, '.mcz'.
-									response status: WAResponse statusMovedPermanently]
+			response redirectTo: self applicationUrl, '/', name, '/', version, '.mcz'.
+			response status: WAResponse statusMovedPermanently]
