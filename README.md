@@ -10,7 +10,7 @@ SWTI2014-Project-01
 - [X] logout
 - **ShProjectsHandler**
 - [ ] addContributor: contributorName toProject: name owner: username
-- [ ] addWatcherForProject: name owner: username
+- [X] addWatcherForProject: name owner: username
 - [X] count
 - [ ] deletePackage: packageName project: projectName owner: username
 - [ ] deleteProject: name owner: username
@@ -19,10 +19,10 @@ SWTI2014-Project-01
 - [X] getLatests
 - [X] getProject: name owner: username
 - [X] getProjectsOwner: aString
-- [ ] getWatchersOfProject: project owner: name
+- [X] getWatchersOfProject: project owner: name
 - [ ] registerProject: name owner: ownerName
 - [ ] removeContributor: username fromProject: name owner: ownerName
-- [ ] removeWatcherFromProject: name owner: username
+- [X] removeWatcherFromProject: name owner: username
 - [X] searchProjectsNamed: aString
 - [X] updateProject: name owner: username
 - **ShRepositoryHandler**
@@ -66,7 +66,7 @@ SWTI2014-Project-01
 - [X] getListingOf: aString owner: aString2
 - [X] getMCListingOf: aString owner: aString2
 - [ ] getProjectListingOfOwner: entityName
-- [ ] getRawListingOf: aString owner: aString2
+- [X] getRawListingOf: aString owner: aString2
 - [X] getVersion: version ofProject: name owner: username
 - [ ] headVersion: version ofProject: name owner: username
 - [X] putVersion: version ofProject: name owner: username
