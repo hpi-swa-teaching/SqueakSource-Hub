@@ -1,8 +1,6 @@
 *SqueakSource-Hub
 jsonDescription
-	^ ((self descriptionAncestors
-			useJsonKey;
-			yourself),
+	^ (  self descriptionAncestors,
 		self descriptionPackage,
 		self descriptionIdentifier,
 		self descriptionSid,			

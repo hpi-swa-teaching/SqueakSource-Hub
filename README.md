@@ -26,12 +26,11 @@ SWTI2014-Project-01
 - [X] searchProjectsNamed: aString
 - [X] updateProject: name owner: username
 - **ShRepositoryHandler**
-- [ ] getInboxVersionsOf: aString owner: aString2
-- [ ] getPackagesOf: name owner: username
-- [ ] getVersion: version ofProject: name owner: username
-- [ ] getVersionNamesOf: project owner: owner
+- [X] getPackagesOf: name owner: username
+- [X] getVersion: version ofProject: name owner: username
+- [X] getVersionNamesOf: project owner: owner
 - [X] getVersionsOf: name owner: username
-- [ ] getVersionsOf: name package: package owner: username
+- [X] getVersionsOf: name package: package owner: username
 - **ShTeamsHandler**
 - [X] addMember: username toTeam: name
 - [ ] deleteTeam: name

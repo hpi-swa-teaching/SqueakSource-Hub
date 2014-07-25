@@ -2,4 +2,8 @@
 	"class" : {
 		"path" : "dg 7/25/2014 15:53" },
 	"instance" : {
-		"getVersionsOf:owner:" : "dg 7/25/2014 17:00" } }
+		"getPackagesOf:owner:" : "dg 7/25/2014 18:10",
+		"getVersion:ofProject:owner:" : "dg 7/25/2014 18:13",
+		"getVersionNamesOf:owner:" : "dg 7/25/2014 18:16",
+		"getVersionsOf:owner:" : "dg 7/25/2014 18:02",
+		"getVersionsOf:package:owner:" : "dg 7/25/2014 18:18" } }
