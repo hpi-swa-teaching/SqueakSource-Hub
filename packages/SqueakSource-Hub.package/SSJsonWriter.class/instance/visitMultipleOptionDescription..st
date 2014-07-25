@@ -1,4 +1,4 @@
-nil
+visiting-description
 visitMultipleOptionDescription: aDescription
 	aDescription useJsonKey
 		ifFalse: [ ^super visitMultipleOptionDescription: aDescription ].

@@ -1,8 +1,10 @@
 *SqueakSource-Hub-descriptions
 descriptionOwner
 
-	^ MAStringDescription new
-		accessor: #owner;
+	^ MAToOneRelationDescription new
+		accessor: #creator;
 		jsonName: 'owner';
+		useJsonKey: true;
+		ownedIn: [SSRepository current members];
 		beHidden;
 		yourself

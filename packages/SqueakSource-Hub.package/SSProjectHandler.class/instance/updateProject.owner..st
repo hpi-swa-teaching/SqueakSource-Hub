@@ -8,5 +8,5 @@ updateProject: identifier owner: username
 	| project |
 	project := SSRepository current projectAt: identifier ifAbsent: [ ^ self notFound ].
 	(project admins includes: self currentMemberOrRespondInvalid) ifFalse: [ ^ 'Invalid user' ].
-	project readFrom: self requestContext request rawBody.
+	project fromJson: self requestContext request rawBody.
 	^ 'ok'

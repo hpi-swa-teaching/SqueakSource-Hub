@@ -9,4 +9,5 @@
 		"testGetMember" : "dg 7/10/2014 09:25",
 		"testGetUserTeams" : "rs 7/10/2014 14:54",
 		"testGetWatchedProjectsByMember" : "dg 7/10/2014 10:09",
-		"testLatests" : "dg 7/3/2014 20:47" } }
+		"testLatests" : "dg 7/3/2014 20:47",
+		"testRegisterMember" : "rs 7/25/2014 15:36" } }

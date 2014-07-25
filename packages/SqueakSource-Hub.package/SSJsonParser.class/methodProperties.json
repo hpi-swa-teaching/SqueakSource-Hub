@@ -2,4 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initializeOnStream:for:" : "rs 6/30/2014 14:30" } }
+		"initializeOnStream:for:" : "rs 6/30/2014 14:30",
+		"setValuesFrom:to:description:" : "rs 7/25/2014 15:24" } }
