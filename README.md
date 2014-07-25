@@ -13,7 +13,7 @@ SWTI2014-Project-01
 - [X] addWatcherForProject: name owner: username
 - [X] count
 - [ ] deletePackage: packageName project: projectName owner: username
-- [ ] deleteProject: name owner: username
+- [ ] deleteProject: name owner: username :interrobang: _**(not supported in SqueakSource)**_
 - [X] getCommitsForProject: name owner: username
 - [X] getContributorsOfProject: name owner: username
 - [X] getLatests
@@ -26,6 +26,7 @@ SWTI2014-Project-01
 - [X] searchProjectsNamed: aString
 - [X] updateProject: name owner: username
 - **ShRepositoryHandler**
+- [ ] getInboxVersionsOf: aString owner: aString2 :interrobang: _**(broken)**_
 - [X] getPackagesOf: name owner: username
 - [X] getVersion: version ofProject: name owner: username
 - [X] getVersionNamesOf: project owner: owner
@@ -33,7 +34,7 @@ SWTI2014-Project-01
 - [X] getVersionsOf: name package: package owner: username
 - **ShTeamsHandler**
 - [X] addMember: username toTeam: name
-- [ ] deleteTeam: name
+- [ ] deleteTeam: name  :interrobang: _**(not supported in SqueakSource)**_
 - [X] getTeam: aString
 - [X] getTeamMembers: aString
 - [X] registerTeam: name
@@ -41,7 +42,7 @@ SWTI2014-Project-01
 - [X] searchTeamNamed: aString
 - [X] updateTeam: name
 - **ShTimelineHandler**
-- [ ] getEvents: username newerThan: aString
+- [ ] getEvents: username newerThan: aString :interrobang: _**(possibly broken)**_
 - [X] getTimeline: username
 - [X] getTimeline: username page: aString
 - [X] getWatchingTimeline: username
@@ -67,5 +68,5 @@ SWTI2014-Project-01
 - [ ] getProjectListingOfOwner: entityName
 - [X] getRawListingOf: aString owner: aString2
 - [X] getVersion: version ofProject: name owner: username
-- [ ] headVersion: version ofProject: name owner: username
+- [ ] headVersion: version ofProject: name owner: username :interrobang: _**(HEAD not supported in Seaside)**_
 - [X] putVersion: version ofProject: name owner: username
