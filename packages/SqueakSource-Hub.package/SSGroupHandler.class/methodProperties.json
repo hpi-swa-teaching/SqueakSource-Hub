@@ -7,4 +7,5 @@
 		"getGroupMembers:" : "dg 7/25/2014 14:46",
 		"registerGroup:" : "rs 7/25/2014 16:55",
 		"removeMember:fromTeam:" : "rs 7/25/2014 17:10",
+		"searchTeamNamed:" : "dg 7/25/2014 17:40",
 		"updateTeam:" : "rs 7/25/2014 17:00" } }

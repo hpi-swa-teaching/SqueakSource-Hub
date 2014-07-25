@@ -1,6 +1,6 @@
 *SqueakSource-Hub-descriptions
 descriptionMessage
 	^ MAStringDescription new
-		accessor: #author;
-		jsonName: 'author';
+		accessor: #message;
+		jsonName: 'message';
 		yourself

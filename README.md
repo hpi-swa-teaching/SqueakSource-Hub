@@ -39,7 +39,7 @@ SWTI2014-Project-01
 - [X] getTeamMembers: aString
 - [X] registerTeam: name
 - [X] removeMember: username fromTeam: name
-- [ ] searchTeamNamed: aString
+- [X] searchTeamNamed: aString
 - [X] updateTeam: name
 - **ShTimelineHandler**
 - [ ] getEvents: username newerThan: aString
@@ -60,7 +60,7 @@ SWTI2014-Project-01
 - **ShVersionsHandler**
 - [X] count
 - [ ] deleteVersion: version project: project owner: owner
-- [ ] getVersion: version project: project owner: owner
+- [X] getVersion: version project: project owner: owner
 - **ShMonticelloHandler**
 - [X] getDiffVersion: version ofProject: name owner: username
 - [X] getListingOf: aString owner: aString2
