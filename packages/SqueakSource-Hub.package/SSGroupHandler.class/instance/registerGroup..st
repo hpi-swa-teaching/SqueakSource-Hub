@@ -7,7 +7,7 @@ registerGroup: id
 	
 	| member group |
 	member := self currentMemberOrRespondInvalid.
-	(SSRepository current groupAt: id) ifNotNil: [^'Name already taken.'].
+	(SSRepository current isUniqueGroupId: id) ifFalse: [^'Name already taken.'].
 	group := SSGroup new
 					id: id;
 					fullname: id;

@@ -10,6 +10,7 @@
 		"getProjectsOfMember:" : "dg 7/25/2014 14:45",
 		"getWatchersOfProject:owner:" : "dg 7/25/2014 14:45",
 		"latest" : "dg 7/7/2014 23:20",
+		"registerProject:owner:" : "rs 7/25/2014 17:46",
 		"searchProjectsNamed:" : "dg 7/7/2014 19:15",
 		"unFavoriteProject:owner:" : "dg 7/25/2014 14:45",
 		"updateProject:owner:" : "dg 7/25/2014 15:45" } }

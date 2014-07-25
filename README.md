@@ -20,7 +20,7 @@ SWTI2014-Project-01
 - [X] getProject: name owner: username
 - [X] getProjectsOwner: aString
 - [X] getWatchersOfProject: project owner: name
-- [ ] registerProject: name owner: ownerName
+- [X] registerProject: name owner: ownerName
 - [ ] removeContributor: username fromProject: name owner: ownerName
 - [X] removeWatcherFromProject: name owner: username
 - [X] searchProjectsNamed: aString
