@@ -3,4 +3,8 @@
 		 },
 	"instance" : {
 		"handlerClass" : "rs 7/25/2014 17:55",
-		"testGetVersionProjectOwner" : "rs 7/10/2014 15:33" } }
+		"testDiffTextProjectOwner" : "rs 7/25/2014 21:46",
+		"testGetListingOfOwner" : "rs 7/25/2014 21:46",
+		"testGetMCListingOfOwner" : "rs 7/25/2014 21:49",
+		"testGetRawListingOfOwner" : "rs 7/25/2014 21:47",
+		"testGetVersionProjectOwner" : "rs 7/25/2014 19:36" } }

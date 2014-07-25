@@ -6,4 +6,5 @@ testGetVersionProjectOwner
 	self
 		assert: (response status = 301);
 		assert: (response headers includesKey: 'Location');
-		assert: ((response headers at: 'Location') = '/ss/testP/testV.mcz' ).
+		assert: ((response headers at: 'Location') =
+				(self handlerClass applicationUrl, '/testP/testV.mcz') ).

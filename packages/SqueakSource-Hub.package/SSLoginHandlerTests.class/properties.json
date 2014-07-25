@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakSource-Hub-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SSLoginHandlerTests",
+	"pools" : [
+		 ],
+	"super" : "SSHandlerTests",
+	"type" : "normal" }

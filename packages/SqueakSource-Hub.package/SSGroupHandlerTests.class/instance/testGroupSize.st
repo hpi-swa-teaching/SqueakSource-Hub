@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testGroupSize
 
 	| json group testmember groupSizeBeforeAdding groupSizeAfterAdding |

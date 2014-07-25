@@ -4,5 +4,5 @@ diffText: version project: project owner: username
 	<path: '/{username}/{project}/main/{version}.diff'>
 
 	self requestContext respond: [:response |
-			response redirectTo: self applicationUrl, '/', project, '/', version, '.diff'.
+			response redirectTo: self class applicationUrl, '/', project, '/', version, '.diff'.
 			response status: WAResponse statusMovedPermanently]

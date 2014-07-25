@@ -1,4 +1,4 @@
-helper
+configuration
 applicationUrl
 	| registeredHandlers possibleUrls |
 	registeredHandlers := WAAdmin defaultDispatcher handlers.
@@ -6,4 +6,4 @@ applicationUrl
 		each class = WAApplication and: [each sessionClass = SSSession]]) keys.
 	^ possibleUrls isEmpty
 		ifTrue: ['/ss']
-		ifFalse: ['/', possibleUrls first].
+		ifFalse: ['/', possibleUrls first]

@@ -3,9 +3,15 @@
 		 },
 	"instance" : {
 		"handlerClass" : "rs 6/26/2014 09:55",
+		"testAddContributor" : "rs 7/25/2014 22:30",
+		"testAddWatcher" : "rs 7/25/2014 22:30",
 		"testCount" : "rs 6/26/2014 10:06",
 		"testGetContributorsForProjectOwner" : "rs 7/25/2014 16:29",
 		"testGetProjectOwner" : "dg 7/10/2014 09:28",
 		"testGetProjectsOfMember" : "dg 7/8/2014 21:20",
 		"testLatests" : "dg 7/3/2014 20:51",
-		"testSearchProjectsNamed" : "dg 7/8/2014 20:13" } }
+		"testRegisterProject" : "rs 7/25/2014 21:38",
+		"testRemoveContributor" : "rs 7/25/2014 22:31",
+		"testRemoveWatcher" : "rs 7/25/2014 22:31",
+		"testSearchProjectsNamed" : "dg 7/8/2014 20:13",
+		"testUpdateProject" : "rs 7/25/2014 21:43" } }

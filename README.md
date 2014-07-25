@@ -12,7 +12,7 @@ SWTI2014-Project-01
 - [X] addContributor: contributorName toProject: name owner: username
 - [X] addWatcherForProject: name owner: username
 - [X] count
-- [ ] deletePackage: packageName project: projectName owner: username
+- [X] deletePackage: packageName project: projectName owner: username
 - [ ] ~~deleteProject: name owner: username :interrobang: _**(not supported in SqueakSource)**_~~
 - [X] getCommitsForProject: name owner: username
 - [X] getContributorsOfProject: name owner: username
@@ -59,7 +59,7 @@ SWTI2014-Project-01
 - [X] updateUser: username
 - **ShVersionsHandler**
 - [X] count
-- [ ] deleteVersion: version project: project owner: owner
+- [X] deleteVersion: version project: project owner: owner
 - [X] getVersion: version project: project owner: owner
 - **ShMonticelloHandler**
 - [X] getDiffVersion: version ofProject: name owner: username

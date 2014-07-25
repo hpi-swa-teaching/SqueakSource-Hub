@@ -14,3 +14,7 @@ testTimelinePage
 	response := (self get: #('maxmuster' 'NotaNumber')) response.
 	
 	self assert: (response status = 400).
+	
+	response := (self get: #('marxmuster' '1')) response.
+	
+	self assert: (response status = 404).

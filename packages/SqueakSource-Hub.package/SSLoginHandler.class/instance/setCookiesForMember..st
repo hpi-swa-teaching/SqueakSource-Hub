@@ -1,4 +1,4 @@
-as yet unclassified
+cookies
 setCookiesForMember: aMember
 
 	self setCookieWithKey: self loginCookieKey value: aMember login.
