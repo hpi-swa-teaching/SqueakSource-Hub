@@ -5,5 +5,7 @@ descriptionContributors
 		accessor: #developers;
 		jsonName: 'contributors';
 		jsonWriter: SSJsonWriter;
+		useJsonKey: true;
+		ownedIn: [SSRepository current members];
 		beHidden;
 		yourself

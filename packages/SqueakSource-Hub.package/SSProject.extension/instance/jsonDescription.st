@@ -17,6 +17,8 @@ jsonDescription
 		self descriptionPublicWrite,
 		(self descriptionIdentifier
 			jsonName: 'name';
+			jsonReader: SSJsonReader;
+			beReadonly;
 			yourself),
 		self descriptionWebsite,
 		self descriptionTagsString,

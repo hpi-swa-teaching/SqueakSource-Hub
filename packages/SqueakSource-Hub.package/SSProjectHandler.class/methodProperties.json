@@ -2,9 +2,18 @@
 	"class" : {
 		"path" : "rs 6/12/2014 12:49" },
 	"instance" : {
+		"addContributor:toProject:owner:" : "rs 7/25/2014 19:17",
 		"count" : "rs 6/24/2014 11:59",
-		"getProject:owner:" : "rs 7/3/2014 12:45",
-		"getProjectsOfMember:" : "rs 7/8/2014 09:59",
+		"deletePackage:project:owner:" : "rs 7/25/2014 19:42",
+		"favoriteProject:owner:" : "dg 7/25/2014 14:45",
+		"getCommitsForProject:owner:" : "dg 7/25/2014 15:36",
+		"getContributorsOfProject:owner:" : "dg 7/25/2014 14:56",
+		"getProject:owner:" : "dg 7/25/2014 14:54",
+		"getProjectsOfMember:" : "dg 7/25/2014 14:45",
+		"getWatchersOfProject:owner:" : "dg 7/25/2014 14:45",
 		"latest" : "dg 7/7/2014 23:20",
+		"registerProject:owner:" : "rs 7/25/2014 17:46",
+		"removeContributor:fromProject:owner:" : "rs 7/25/2014 19:15",
 		"searchProjectsNamed:" : "dg 7/7/2014 19:15",
-		"updateProject:owner:" : "rs 7/7/2014 23:18" } }
+		"unFavoriteProject:owner:" : "dg 7/25/2014 14:45",
+		"updateProject:owner:" : "dg 7/25/2014 15:45" } }

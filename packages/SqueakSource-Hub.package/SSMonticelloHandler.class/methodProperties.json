@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"applicationUrl" : "rs 7/25/2014 22:47",
+		"path" : "rs 7/1/2014 14:25" },
+	"instance" : {
+		"diffText:project:owner:" : "rs 7/25/2014 19:35",
+		"getListingOf:owner:" : "rs 7/25/2014 19:35",
+		"getMCListingOf:owner:" : "rs 7/25/2014 19:35",
+		"getProjectListingOfOwner:" : "rs 7/25/2014 18:06",
+		"getRawListingOf:owner:" : "rs 7/25/2014 19:35",
+		"getVersion:project:owner:" : "rs 7/25/2014 19:36",
+		"putVersion:ofProject:owner:" : "rs 7/25/2014 19:36" } }

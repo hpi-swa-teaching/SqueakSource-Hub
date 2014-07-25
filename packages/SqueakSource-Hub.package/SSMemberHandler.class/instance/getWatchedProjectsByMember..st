@@ -5,5 +5,5 @@ getWatchedProjectsByMember: login
 	<produces: 'text/json'>
 	
 	| member |
-	member := SSRepository current memberAt: login ifAbsent: [^ self notFound].
-	^ (member favorites collect: [:each | each creator login, '/', each title]) asJson
+	member := SSRepository current memberAt: login ifAbsent: [^ self respondNotFound].
+	^ (member favorites collect: [:each | each creator login, '/', each id]) asJson

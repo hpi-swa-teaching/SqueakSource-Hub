@@ -3,6 +3,8 @@
 		 },
 	"instance" : {
 		"handlerClass" : "dg 7/8/2014 18:52",
+		"testAddGroupMember" : "rs 7/25/2014 22:34",
 		"testGroupMembersAdd" : "dg 7/8/2014 18:55",
 		"testGroupSize" : "dg 7/8/2014 18:54",
-		"testGroups" : "dg 7/8/2014 18:52" } }
+		"testGroups" : "dg 7/8/2014 18:52",
+		"testRemoveGroupMember" : "rs 7/25/2014 22:34" } }

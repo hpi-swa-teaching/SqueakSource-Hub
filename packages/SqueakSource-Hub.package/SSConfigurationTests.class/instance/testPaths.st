@@ -7,7 +7,7 @@ testPaths
 		assert: (SSLogoutHandler path = 'hub/logout');
 		assert: (SSMemberHandler path = 'hub/users');
 		assert: (SSProjectHandler path = 'hub/projects');
-		assert: (SSRedirectHandler path = 'mc');
+		assert: (SSMonticelloHandler path = 'mc');
 		assert: (SSTimelineHandler path = 'hub/timeline');
 		assert: (SSVersionsHandler path = 'hub/versions');
 		assert: (SSHandlerTests new isAbstract = true).

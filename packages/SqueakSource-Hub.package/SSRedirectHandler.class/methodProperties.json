@@ -1,9 +1,0 @@
-{
-	"class" : {
-		"path" : "rs 7/1/2014 14:25" },
-	"instance" : {
-		"diffText:project:owner:" : "rs 7/3/2014 10:14",
-		"getListingOf:owner:" : "rs 7/3/2014 10:22",
-		"getMCListingOf:owner:" : "rs 7/3/2014 10:22",
-		"getVersion:project:owner:" : "rs 7/3/2014 10:17",
-		"putVersion:ofProject:owner:" : "rs 7/8/2014 12:28" } }

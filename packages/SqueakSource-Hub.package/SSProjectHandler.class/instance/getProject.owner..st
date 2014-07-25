@@ -5,5 +5,5 @@ getProject: identifier owner: username
 	<produces: 'text/json'>
 
 	| project |
-	project := SSRepository current projectAt: identifier ifAbsent: [ self respondForbidden ].
+	project := SSRepository current projectAt: identifier ifAbsent: [self respondForbidden].
 	^ project asJson

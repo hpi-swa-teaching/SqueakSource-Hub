@@ -6,7 +6,7 @@ asTimelineEvent: aProject
 		at: 'versionName' put: self versionInfo name;
 		at: 'title' put: 'commited to';
 		at: 'project' put: aProject creator login, '/', aProject id;
-		at: 'description ' put: self message;
+		at: 'description' put: self message;
 		at: 'email' put: self author email;
 		at: 'created' put: self timestamp asSeconds;
 		at: 'sid' put: self versionInfo name;

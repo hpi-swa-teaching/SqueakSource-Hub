@@ -1,17 +1,11 @@
 helper
 get: aSymbolList
-	| requestUrl request context |
-	
-	requestUrl := WAUrl new
-		addAllToPath: aSymbolList
-		yourself.
-	request := WARequest
-		method: 'GET'
-		uri: requestUrl pathStringUnencoded.
-	context := WARequestContext request: request response: WABufferedResponse new.
-	
+	| context |
+
+	context := self buildRequest: 'GET' url: aSymbolList.
+
 	[handler handle: context]
 			on: WAResponseNotification
 			do: [:notification | ].
-		
+
 	^ context

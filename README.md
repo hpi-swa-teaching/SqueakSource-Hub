@@ -1,3 +1,72 @@
 SWTI2014-Project-01
 ===================
-[![Build Status](https://travis-ci.org/SWTI2014/SWTI2014-Project-01.svg)](https://travis-ci.org/SWTI2014/SWTI2014-Project-01)
+
+#### master [![Build Status: master](https://travis-ci.org/SWTI2014/SWTI2014-Project-01.svg?branch=master)](https://travis-ci.org/SWTI2014/SWTI2014-Project-01)
+#### pharogemstone [![Build Status: pharogemstone](https://travis-ci.org/SWTI2014/SWTI2014-Project-01.svg?branch=pharogemstone)](https://travis-ci.org/SWTI2014/SWTI2014-Project-01)
+
+- **ShLoginHandler**
+- [X] login
+- **ShLogoutHandler**
+- [X] logout
+- **ShProjectsHandler**
+- [X] addContributor: contributorName toProject: name owner: username
+- [X] addWatcherForProject: name owner: username
+- [X] count
+- [X] deletePackage: packageName project: projectName owner: username
+- [ ] ~~deleteProject: name owner: username :interrobang: _**(not supported in SqueakSource)**_~~
+- [X] getCommitsForProject: name owner: username
+- [X] getContributorsOfProject: name owner: username
+- [X] getLatests
+- [X] getProject: name owner: username
+- [X] getProjectsOwner: aString
+- [X] getWatchersOfProject: project owner: name
+- [X] registerProject: name owner: ownerName
+- [X] removeContributor: username fromProject: name owner: ownerName
+- [X] removeWatcherFromProject: name owner: username
+- [X] searchProjectsNamed: aString
+- [X] updateProject: name owner: username
+- **ShRepositoryHandler**
+- [ ] ~~getInboxVersionsOf: aString owner: aString2 :interrobang: _**(broken)**_~~
+- [X] getPackagesOf: name owner: username
+- [X] getVersion: version ofProject: name owner: username
+- [X] getVersionNamesOf: project owner: owner
+- [X] getVersionsOf: name owner: username
+- [X] getVersionsOf: name package: package owner: username
+- **ShTeamsHandler**
+- [X] addMember: username toTeam: name
+- [ ] ~~deleteTeam: name  :interrobang: _**(not supported in SqueakSource)**_~~
+- [X] getTeam: aString
+- [X] getTeamMembers: aString
+- [X] registerTeam: name
+- [X] removeMember: username fromTeam: name
+- [X] searchTeamNamed: aString
+- [X] updateTeam: name
+- **ShTimelineHandler**
+- [ ] ~~getEvents: username newerThan: aString :interrobang: _**(possibly broken)**_~~
+- [X] getTimeline: username
+- [X] getTimeline: username page: aString
+- [X] getWatchingTimeline: username
+- **ShUsersHandler**
+- [X] count
+- [X] getCurrentUser
+- [X] getCurrentUserTeams
+- [X] getLatests
+- [X] getUser: aString
+- [X] getUserTeams: username
+- [X] getWatchedProjectsByUser: aString
+- [X] registerUser: username
+- [X] searchUsersNamed: aString
+- [X] updateUser: username
+- **ShVersionsHandler**
+- [X] count
+- [X] deleteVersion: version project: project owner: owner
+- [X] getVersion: version project: project owner: owner
+- **ShMonticelloHandler**
+- [X] getDiffVersion: version ofProject: name owner: username
+- [X] getListingOf: aString owner: aString2
+- [X] getMCListingOf: aString owner: aString2
+- [X] getProjectListingOfOwner: entityName
+- [X] getRawListingOf: aString owner: aString2
+- [X] getVersion: version ofProject: name owner: username
+- [ ] ~~headVersion: version ofProject: name owner: username :interrobang: _**(HEAD not supported in Seaside)**_~~
+- [X] putVersion: version ofProject: name owner: username
