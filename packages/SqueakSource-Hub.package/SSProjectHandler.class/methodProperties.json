@@ -3,11 +3,13 @@
 		"path" : "rs 6/12/2014 12:49" },
 	"instance" : {
 		"count" : "rs 6/24/2014 11:59",
-		"favoriteProject:owner:" : "rs 7/23/2014 12:22",
-		"getProject:owner:" : "rs 7/3/2014 12:45",
-		"getProjectsOfMember:" : "rs 7/8/2014 09:59",
-		"getWatchersOfProject:owner:" : "rs 7/23/2014 13:10",
+		"favoriteProject:owner:" : "dg 7/25/2014 14:45",
+		"getCommitsForProject:owner:" : "dg 7/25/2014 15:36",
+		"getContributorsOfProject:owner:" : "dg 7/25/2014 14:56",
+		"getProject:owner:" : "dg 7/25/2014 14:54",
+		"getProjectsOfMember:" : "dg 7/25/2014 14:45",
+		"getWatchersOfProject:owner:" : "dg 7/25/2014 14:45",
 		"latest" : "dg 7/7/2014 23:20",
 		"searchProjectsNamed:" : "dg 7/7/2014 19:15",
-		"unFavoriteProject:owner:" : "rs 7/23/2014 12:56",
-		"updateProject:owner:" : "rs 7/25/2014 13:19" } }
+		"unFavoriteProject:owner:" : "dg 7/25/2014 14:45",
+		"updateProject:owner:" : "dg 7/25/2014 15:45" } }

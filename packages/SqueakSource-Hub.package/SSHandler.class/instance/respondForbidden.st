@@ -1,4 +1,4 @@
-as yet unclassified
+respond
 respondForbidden
 	self requestContext respond: [ :response |
 									response forbidden. ]

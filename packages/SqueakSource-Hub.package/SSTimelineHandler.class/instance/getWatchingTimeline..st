@@ -6,7 +6,7 @@ getWatchingTimeline: username
 	
 	| member timeline |
 	
-	member := SSRepository current memberAt: username ifAbsent: [^ self notFound].
+	member := SSRepository current memberAt: username ifAbsent: [^ self respondNotFound].
 	timeline := self generateWatchingTimeline: member.							
 	
 	^ timeline asJson 

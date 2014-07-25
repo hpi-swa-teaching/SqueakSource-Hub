@@ -4,4 +4,4 @@ getGroup: aString
 	<path: '/{aString}'>
 	<produces: 'text/json'>
 	
-	^ (SSRepository current groupAt: aString ifAbsent: [^ self notFound]) asJson
+	^ (SSRepository current groupAt: aString ifAbsent: [^ self respondNotFound]) asJson

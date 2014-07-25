@@ -7,7 +7,7 @@ favoriteProject: projectId owner: username
 	| project member |
 	Transcript show: 'this'.
 	Transcript show: projectId.
-	project := SSRepository current projectAt: projectId ifAbsent: [self notFound].
+	project := SSRepository current projectAt: projectId ifAbsent: [self respondNotFound].
 	member := self currentMemberOrRespondInvalid.
 	(member favorites includes: project) ifTrue: [^'Project already followed by user'].
 	member addFavorite: project.

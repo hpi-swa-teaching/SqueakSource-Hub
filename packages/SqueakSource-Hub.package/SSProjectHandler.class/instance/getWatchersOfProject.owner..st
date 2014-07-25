@@ -5,5 +5,5 @@ getWatchersOfProject: projectId owner: username
 	<produces: 'text/json'>
 	
 	| project |
-	project := SSRepository current projectAt: projectId ifAbsent: [self notFound].
+	project := SSRepository current projectAt: projectId ifAbsent: [self respondNotFound].
 	^ (SSRepository current membersSelect: [:each | each favorites includes: project]) asJson

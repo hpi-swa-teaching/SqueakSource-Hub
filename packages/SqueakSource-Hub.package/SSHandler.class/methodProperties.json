@@ -14,7 +14,9 @@
 		"notFound" : "dg 7/7/2014 23:11",
 		"passwordCookieKey" : "rs 6/10/2014 09:29",
 		"passwordCookieValue" : "rs 6/10/2014 09:29",
+		"respondBadRequest" : "dg 7/25/2014 14:43",
 		"respondForbidden" : "rs 7/3/2014 12:43",
 		"respondInvalidLoginData" : "rs 6/22/2014 13:29",
+		"respondNotFound" : "dg 7/25/2014 14:43",
 		"setCookieWithKey:value:" : "rs 6/10/2014 09:21",
 		"setCookieWithKey:value:expireIn:" : "rs 7/8/2014 12:10" } }
