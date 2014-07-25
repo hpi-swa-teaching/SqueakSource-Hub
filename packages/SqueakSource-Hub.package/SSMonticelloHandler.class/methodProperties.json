@@ -6,6 +6,7 @@
 		"diffText:project:owner:" : "rs 7/23/2014 11:23",
 		"getListingOf:owner:" : "rs 7/23/2014 11:23",
 		"getMCListingOf:owner:" : "rs 7/23/2014 11:23",
+		"getProjectListingOfOwner:" : "rs 7/25/2014 18:06",
 		"getRawListingOf:owner:" : "rs 7/23/2014 11:32",
 		"getVersion:project:owner:" : "rs 7/23/2014 11:22",
 		"putVersion:ofProject:owner:" : "rs 7/25/2014 16:27" } }

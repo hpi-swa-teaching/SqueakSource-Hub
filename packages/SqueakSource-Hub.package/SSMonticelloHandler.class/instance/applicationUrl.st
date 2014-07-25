@@ -1,4 +1,4 @@
-as yet unclassified
+helper
 applicationUrl
 	| registeredHandlers possibleUrls |
 	registeredHandlers := WAAdmin defaultDispatcher handlers.

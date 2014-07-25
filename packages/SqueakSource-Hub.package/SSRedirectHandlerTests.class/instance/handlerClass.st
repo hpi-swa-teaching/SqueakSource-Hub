@@ -1,3 +1,3 @@
 configuration
 handlerClass 
-	^ SSRedirectHandler
+	^ SSMonticelloHandler
