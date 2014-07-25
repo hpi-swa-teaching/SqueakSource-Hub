@@ -14,8 +14,8 @@ SWTI2014-Project-01
 - [X] count
 - [ ] deletePackage: packageName project: projectName owner: username
 - [ ] deleteProject: name owner: username
-- [ ] getCommitsForProject: name owner: username
-- [ ] getContributorsOfProject: name owner: username
+- [X] getCommitsForProject: name owner: username
+- [X] getContributorsOfProject: name owner: username
 - [X] getLatests
 - [X] getProject: name owner: username
 - [X] getProjectsOwner: aString
@@ -30,17 +30,17 @@ SWTI2014-Project-01
 - [ ] getPackagesOf: name owner: username
 - [ ] getVersion: version ofProject: name owner: username
 - [ ] getVersionNamesOf: project owner: owner
-- [ ] getVersionsOf: name owner: username
+- [X] getVersionsOf: name owner: username
 - [ ] getVersionsOf: name package: package owner: username
 - **ShTeamsHandler**
-- [ ] addMember: username toTeam: name
+- [X] addMember: username toTeam: name
 - [ ] deleteTeam: name
 - [X] getTeam: aString
 - [X] getTeamMembers: aString
-- [ ] registerTeam: name
-- [ ] removeMember: username fromTeam: name
+- [X] registerTeam: name
+- [X] removeMember: username fromTeam: name
 - [ ] searchTeamNamed: aString
-- [ ] updateTeam: name
+- [X] updateTeam: name
 - **ShTimelineHandler**
 - [ ] getEvents: username newerThan: aString
 - [X] getTimeline: username

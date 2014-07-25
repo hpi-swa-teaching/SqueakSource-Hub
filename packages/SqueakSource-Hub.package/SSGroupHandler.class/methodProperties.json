@@ -2,5 +2,9 @@
 	"class" : {
 		"path" : "rs 7/8/2014 10:33" },
 	"instance" : {
+		"addMember:toTeam:" : "rs 7/25/2014 17:05",
 		"getGroup:" : "dg 7/25/2014 14:46",
-		"getGroupMembers:" : "dg 7/25/2014 14:46" } }
+		"getGroupMembers:" : "dg 7/25/2014 14:46",
+		"registerGroup:" : "rs 7/25/2014 16:55",
+		"removeMember:fromTeam:" : "rs 7/25/2014 17:10",
+		"updateTeam:" : "rs 7/25/2014 17:00" } }
