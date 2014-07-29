@@ -1,8 +1,8 @@
-SWTI2014-Project-01
+SqueakSource-Hub
 ===================
 
-#### master [![Build Status: master](https://travis-ci.org/SWTI2014/SWTI2014-Project-01.svg?branch=master)](https://travis-ci.org/SWTI2014/SWTI2014-Project-01)
-#### pharogemstone [![Build Status: pharogemstone](https://travis-ci.org/SWTI2014/SWTI2014-Project-01.svg?branch=pharogemstone)](https://travis-ci.org/SWTI2014/SWTI2014-Project-01)
+#### master [![Build Status: master](https://travis-ci.org/SWTI2014/SqueakSource-Hub.svg?branch=master)](https://travis-ci.org/SWTI2014/SqueakSource-Hub)
+#### pharogemstone [![Build Status: pharogemstone](https://travis-ci.org/SWTI2014/SqueakSource-Hub.svg?branch=pharogemstone)](https://travis-ci.org/SWTI2014/SqueakSource-Hub)
 
 - **ShLoginHandler**
 - [X] login
