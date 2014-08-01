@@ -7,5 +7,6 @@ descriptionContributors
 		jsonWriter: SSJsonWriter;
 		useJsonKey: true;
 		ownedIn: [SSRepository current members];
+		beReadonly;
 		beHidden;
 		yourself
