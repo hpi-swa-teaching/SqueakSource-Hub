@@ -17,5 +17,7 @@ createTestVersion: packageName author: authorName
                 dependencies: #().
 
 	versionStream := RWBinaryOrTextStream on: String new.
-	version fileOutOn: versionStream.
+	[version fileOutOn: versionStream]
+			on: Notification
+			do: [:notification | ].
 	^ versionStream
