@@ -1,7 +1,19 @@
 helper
 createTestVersion: packageName author: authorName
-	| basePackageName version versionStream |
+	| basePackageName version versionStream definitions |
 	basePackageName := packageName copyUpToLast: $-.
+	definitions := OrderedCollection new.
+	definitions add:
+		(MCClassDefinition
+                    name: 'HubTestClass'
+                    superclassName: 'Object'
+                    category: basePackageName
+                    instVarNames: ''
+                    classVarNames: ''
+                    poolDictionaryNames: #()
+                    classInstVarNames: ''
+                    comment: '').
+	
 	version := MCVersion new
                 setPackage: (MCPackage new name: basePackageName)
                 info:
@@ -13,11 +25,9 @@ createTestVersion: packageName author: authorName
                         time: Time current
                         author: authorName
                         ancestors: #())
-                snapshot: (MCSnapshot fromDefinitions: Array new)
+                snapshot: (MCSnapshot fromDefinitions: definitions)
                 dependencies: #().
 
 	versionStream := RWBinaryOrTextStream on: String new.
-	[version fileOutOn: versionStream]
-			on: Warning
-			do: [:notification | ].
+	version fileOutOn: versionStream.
 	^ versionStream
